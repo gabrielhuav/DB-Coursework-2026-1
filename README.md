@@ -21,7 +21,7 @@ Sistema integral para la gestión de inventario y ventas de un bazar.
 - <img width="2700" height="1610" alt="image" src="https://github.com/user-attachments/assets/b382ae67-8eb4-44c5-ba46-0e08fe3d10ef" />
 
 ### 🔗 Enlaces
-**Código Fuente:** [Repositorio en GitHub](https://github.com/LunaEMG/bazar_ropa_project)
+**Código Fuente:** [Repositorio en GitHub](https://github.com/jr-devel/doly)
 
 **Demo en Vivo:** [Bazar Ropa Web](https://bazar-ropa-project-web.onrender.com)
   
