@@ -232,7 +232,7 @@ Sistema web para gestionar las operaciones de un Taller Automotriz
 ### 🔗 Enlaces
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/GabrielEC9/proyecto_BD_practica31)
 * **Demo en Vivo:** [Taller Automotrizl](https://proyecto-bd-practica31.onrender.com/login.html)
-* **Demo en Vivo GitHub Pages:** [DOLY Logistic]([https://jr-devel.github.io/doly_front_escom/](https://gabrielec9.github.io/pagina-estatica-BD3CV2/)
+* **Demo en Vivo GitHub Pages:** ([https://jr-devel.github.io/doly_front_escom/](https://gabrielec9.github.io/pagina-estatica-BD3CV2/)
 ---
 
 ## 📝 Licencia
