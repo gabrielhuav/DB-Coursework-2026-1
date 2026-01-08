@@ -199,8 +199,8 @@ Plataforma web para gestión de asistencia vial y administración de servicios r
 
 ---
 
-## Proyecto 5: Sistema de Gestión Comercial
-Sistema web para administración de operaciones comerciales con gestión de inventario y ventas.
+## Proyecto 5: Sistema Taller AutoMotriz
+Sistema web para gestionar las operaciones de un Taller Automotriz
 
 ### 🛠️ Tecnologías
 * **Backend:** JavaScript con Prisma (ORM)
@@ -231,8 +231,8 @@ Sistema web para administración de operaciones comerciales con gestión de inve
 
 ### 🔗 Enlaces
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/GabrielEC9/proyecto_BD_practica31)
-* **Demo en Vivo:** [Sistema Comercial](https://proyecto-bd-practica31.onrender.com/login.html)
-
+* **Demo en Vivo:** [Taller Automotrizl](https://proyecto-bd-practica31.onrender.com/login.html)
+* **Demo en Vivo GitHub Pages:** [DOLY Logistic]([https://jr-devel.github.io/doly_front_escom/](https://gabrielec9.github.io/pagina-estatica-BD3CV2/)
 ---
 
 ## 📝 Licencia
