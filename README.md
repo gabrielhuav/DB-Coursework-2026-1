@@ -140,7 +140,8 @@ Sistema de gestión integral para una fábrica de juguetes.
 
 ### 🔗 Enlaces
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/24l3x/Proyecto-Base-de-datos)
-* **Demo en Vivo:** [Juguetes DARS](https://juguetesdars.page.gd/)
+* **Demo en Vivo (InfinityFree):** [Juguetes DARS](https://juguetesdars.page.gd/)
+* **Demo en Vivo (Github Pages):** [Juguetes DARS](https://24l3x.github.io/Proyecto-Base-de-datos/)
 
 ---
 
