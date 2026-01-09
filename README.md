@@ -657,6 +657,52 @@ La base de datos PostgreSQL garantiza integridad referencial y consistencia de l
 - **Despliegue Oficial (Render):**  
   https://rentas-blockbuster.onrender.com/
 
+## Proyecto 13: Rebrota
+Sistema de información para la gestión de un Banco Comunitario de Semillas basado en una base de datos relacional.
+
+### Tecnologías
+Backend desarrollado en PHP utilizando PDO para la conexión y manipulación de datos.  
+Base de datos relacional implementada en PostgreSQL, diseñada y normalizada para el control de su funcionamiento.
+Frontend construido con HTML y CSS para la presentación de formularios y consultas.  
+Alojamiento del sistema en AlwaysData, donde se encuentra hospedada tanto la aplicación web en PHP como la base de datos PostgreSQL.  
+El sistema no emplea JavaScript ni frameworks externos, priorizando el diseño y correcto funcionamiento de la base de datos.
+
+
+### Descripción del proyecto
+El proyecto Rebrota surge a partir de la necesidad de organizar, registrar y controlar el intercambio de semillas dentro de una comunidad. En diversas zonas rurales y huertos urbanos, las familias conservan semillas de distintas plantas como maíz, jitomate, frijol, hierbas medicinales y flores, con el objetivo de compartirlas o intercambiarlas entre los miembros de la comunidad.
+
+Con el paso del tiempo, este proceso se volvió desordenado debido a la ausencia de un sistema formal que permitiera registrar quién dona, quién recibe o quién conserva las semillas, así como la falta de control sobre la cantidad disponible, la fecha de recolección y la viabilidad de las mismas. Ante esta problemática, se diseñó y modeló una base de datos relacional que funciona como sistema de información para un Banco Comunitario de Semillas.
+
+El sistema permite registrar a los usuarios y familias participantes, controlar las donaciones y préstamos de semillas, mantener un inventario actualizado de las variedades disponibles, organizar y documentar eventos comunitarios como ferias o talleres, y fomentar la participación y colaboración entre los integrantes de la comunidad. Al tratarse de un proyecto escolar, el mayor énfasis se coloca en el diseño, estructura y correcta implementación de la base de datos, así como en su integración funcional con la aplicación web.
+
+### Previews
+
+
+<table align="center">
+  <tr>
+    <td width="50%" align="center">
+      [![Captura-de-pantalla-2026-01-09-125702.png](https://i.postimg.cc/Jn4vpyCP/Captura-de-pantalla-2026-01-09-125702.png)](https://postimg.cc/VSpK6k6C)
+    </td>
+    <td width="50%" align="center">
+      [![Captura-de-pantalla-2026-01-09-125709.png](https://i.postimg.cc/JhR2hynd/Captura-de-pantalla-2026-01-09-125709.png)](https://postimg.cc/HrP2ZkbQ)
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      [![Captura-de-pantalla-2026-01-09-125715.png](https://i.postimg.cc/JtwTC0vb/Captura-de-pantalla-2026-01-09-125715.png)](https://postimg.cc/K3N7nGZz)
+    </td>
+    <td width="50%" align="center">
+      [![Captura-de-pantalla-2026-01-09-125801.png](https://i.postimg.cc/RZmBcZh7/Captura-de-pantalla-2026-01-09-125801.png)](https://postimg.cc/PPS9HhmJ)
+    </td>
+  </tr>
+</table>
+
+### Repositorio del proyecto
+https://github.com/ErickEvil16/PaginaBD3CV5/tree/main
+
+### Demo en vivo
+https://rebrota.alwaysdata.net/
+
 ---
 ## 📝 Licencia
 Este repositorio y sus proyectos están bajo la **MIT License**.
