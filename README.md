@@ -787,13 +787,13 @@ La base de datos relacional está diseñada para mantener la integridad referenc
 Sistema robusto para la administración de una Liga de Fútbol Profesional, diseñado para soportar operaciones transaccionales complejas y simulación de grandes volúmenes de datos.
 
 ###    Tecnologías
-El núcleo del sistema está construido sobre **PostgreSQL 17** como motor de base de datos, orquestado mediante **Docker y Docker Compose** para garantizar la portabilidad. La lógica de automatización y poblado masivo se desarrolló en **Python** , integrando librerías clave como **Faker** y **Psycopg2** para la generación de datos sintéticos y manipulación eficiente de registros.
+El núcleo del sistema está construido sobre ** PostgreSQL 17 ** como motor de base de datos, orquestado mediante ** Docker y Docker Compose ** para garantizar la portabilidad. La lógica de automatización y poblado masivo se desarrolló en ** Python ** , integrando librerías clave como ** Faker ** y ** Psycopg2 ** para la generación de datos sintéticos y manipulación eficiente de registros.
 
 ###    Características principales
--   **Poblado Masivo de Datos** : Generación automatizada de millones de registros (Jugadores, Partidos, Estadísticas) para pruebas de estrés.
--   **Análisis de Rendimiento:** Comparativa de tiempos de respuesta e inserción entre cargas leves y masivas.
--   **Transacciones ACID:** Manejo seguro de fichajes y reprogramación de partidos.
--   **Dockerizado:** Entorno completamente portátil y aislado.
+-   ** Poblado Masivo de Datos ** : Generación automatizada de millones de registros (Jugadores, Partidos, Estadísticas) para pruebas de estrés.
+-   ** Análisis de Rendimiento: ** Comparativa de tiempos de respuesta e inserción entre cargas leves y masivas.
+-   ** Transacciones ACID: ** Manejo seguro de fichajes y reprogramación de partidos.
+-   ** Dockerizado: ** Entorno completamente portátil y aislado.
 
 ###    Vistas previas
 
@@ -814,8 +814,8 @@ El núcleo del sistema está construido sobre **PostgreSQL 17** como motor de ba
 </table>
 
 ###    Enlaces
-*   **Código fuente:**   [ Repositorio en GitHub ] ( https://github.com/edu12344/Practica-5.git )
-*   **Demo en vivo:**   [ Demo en vivo ] ( ( https://ligafutrapido.kesug.com/ ) )
+*   ** Código fuente: **   [ Repositorio en GitHub ] ( https://github.com/edu12344/Practica-5.git )
+*   ** Demo en vivo: **   [ Demo en vivo ] ( ( https://ligafutrapido.kesug.com/ ) )
 ---
 
 Protyecto 16 
@@ -859,6 +859,211 @@ https://github.com/AralePerez/Lavanderiaproyecto
 # Página web oficial del proyecto
 https://www.basedatos.kesug.com/index.php?
 
+# Proyecto 17
+
+Sistema Web de Gestión de Zoológico
+
+📘 Descripción del proyecto
+
+Este proyecto consiste en el desarrollo de un sistema web para la gestión de un zoológico, el cual permite administrar información relacionada con animales, habitats, cuidadores y alimentación mediante una base de datos relacional en MySQL y una interfaz web en PHP.
+
+El sistema fue diseñado como un caso de estudio académico, aplicando conceptos de:
+
+Modelado de bases de datos
+
+Modelo Entidad-Relación
+
+Modelo Entidad-Relación Extendido
+
+Modelo Relacional
+
+Seguridad básica en aplicaciones web
+
+
+
+---
+
+🎯 Problema a solucionar
+
+La administración de un zoológico requiere manejar una gran cantidad de información sensible y relacionada entre sí, como:
+
+Datos de animales y su estado de salud
+
+Asignación de habitats
+
+Control de cuidadores
+
+Registro de alimentación
+
+
+Cuando esta información se maneja de forma manual o sin un sistema centralizado, pueden ocurrir:
+
+Pérdida de información
+
+Errores en registros
+
+Falta de control y seguridad
+
+Dificultad para consultar o actualizar datos
+
+
+Este proyecto busca centralizar, organizar y proteger dicha información mediante un sistema digital.
+
+
+---
+
+🧩 Alcance del sistema
+
+El sistema permite:
+
+Registro e inicio de sesión de usuarios
+
+Control de acceso mediante sesiones
+
+Consulta de datos desde la base de datos
+
+Inserción de nuevos registros
+
+Eliminación de registros existentes
+
+Administración de múltiples tablas desde una sola interfaz
+
+
+
+---
+
+🧱 Arquitectura del sistema
+
+El proyecto sigue una arquitectura cliente-servidor, separando:
+
+HTML → Interfaz gráfica
+
+PHP → Lógica del sistema
+
+MySQL → Almacenamiento de datos
+
+
+Además, se separa claramente la vista de la lógica, facilitando mantenimiento y comprensión del código.
+
+
+---
+
+🗂 Estructura del proyecto
+
+/zoo_project
+│
+├── index.html          # Vista del login
+├── index.php           # Lógica de autenticación
+├── registro.html       # Formulario de registro
+├── registrar.php       # Inserción de usuarios
+├── dashboard.html      # Vista principal tras login
+├── dashboard.php       # Validación de sesión
+├── admin.html          # Interfaz de administración
+├── admin.php           # Consultas, inserciones y borrados
+├── logout.php          # Cierre de sesión
+├── config.php          # Conexión a la base de datos
+├── style.css           # Diseño visual
+└── zoo_db.sql          # Base de datos completa
+
+
+---
+
+🗄 Base de datos
+
+La base de datos zoo_db está compuesta por las siguientes tablas principales:
+
+Animal
+
+Habitat
+
+Cuidador
+
+Alimento
+
+RegistroAlimentacion
+
+usuarios
+
+
+Características:
+
+Uso de llaves primarias
+
+Relaciones uno a muchos y muchos a muchos
+
+Datos de prueba incluidos
+
+Contraseñas almacenadas de forma segura (hash)
+
+
+
+---
+
+🔐 Seguridad del sistema
+
+El sistema implementa medidas básicas de seguridad:
+
+Autenticación mediante login
+
+Manejo de sesiones (session_start)
+
+Acceso restringido al panel de administración
+
+Uso de prepared statements para evitar inyección SQL
+
+Validación de formularios
+
+
+
+---
+
+🖥 Interfaz del sistema
+
+El sistema cuenta con una interfaz:
+
+Clara e intuitiva
+
+Colores azul y blanco
+
+Formularios simples y funcionales
+
+Menú desplegable para seleccionar tablas
+
+Operaciones realizadas en la misma página
+
+
+
+---
+
+👤 Usuario de prueba
+
+Para probar el sistema se incluye el siguiente usuario:
+
+Correo: admin@zoo.com
+
+Contraseña: admin123
+
+
+
+---
+
+🖼 Imágenes del proyecto
+
+(Aquí puedes insertar imágenes)
+
+[Login del sistema](https://github.com/Xandx22/Proyecto/blob/imagenes/Img1.png)
+[Iniciando sesión](https://github.com/Xandx22/Proyecto/blob/imagenes/image.png)
+
+
+
+Enlaces:
+
+# Repositorio del proyecto
+https://github.com/Xandx22/Proyecto
+# Página estática
+https://xandx22.github.io/Proyecto/htdocs/htdocs/index
+# Página web
+https://zoologicogestion.infinityfree.me
 
 
 ## 📝 Licencia
