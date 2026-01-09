@@ -681,15 +681,17 @@ El sistema permite registrar a los usuarios y familias participantes, controlar 
 <table align="center">
   <tr>
     <td width="50%" align="center">
-      [![Captura-de-pantalla-2026-01-09-125702.png](https://i.postimg.cc/Jn4vpyCP/Captura-de-pantalla-2026-01-09-125702.png)](https://postimg.cc/VSpK6k6C)
+
+[![Captura-de-pantalla-2026-01-09-125641.png](https://i.postimg.cc/y8G2L68V/Captura-de-pantalla-2026-01-09-125641.png)](https://postimg.cc/pmD0THj7)
     </td>
     <td width="50%" align="center">
-      [![Captura-de-pantalla-2026-01-09-125709.png](https://i.postimg.cc/JhR2hynd/Captura-de-pantalla-2026-01-09-125709.png)](https://postimg.cc/HrP2ZkbQ)
+[![Captura-de-pantalla-2026-01-09-125702.png](https://i.postimg.cc/XvHKfXjn/Captura-de-pantalla-2026-01-09-125702.png)](https://postimg.cc/8FvrDpfY)
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      [![Captura-de-pantalla-2026-01-09-125715.png](https://i.postimg.cc/JtwTC0vb/Captura-de-pantalla-2026-01-09-125715.png)](https://postimg.cc/K3N7nGZz)
+      
+[![Captura-de-pantalla-2026-01-09-125715.png](https://i.postimg.cc/JtwTC0vb/Captura-de-pantalla-2026-01-09-125715.png)](https://postimg.cc/K3N7nGZz)
     </td>
     <td width="50%" align="center">
       [![Captura-de-pantalla-2026-01-09-125801.png](https://i.postimg.cc/RZmBcZh7/Captura-de-pantalla-2026-01-09-125801.png)](https://postimg.cc/PPS9HhmJ)
