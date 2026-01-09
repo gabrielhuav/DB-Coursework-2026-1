@@ -783,6 +783,39 @@ La base de datos relacional está diseñada para mantener la integridad referenc
 ├── index.php       # Login y Punto de Entrada
 └── style.css       # Estilos Globales
 ```
+## Proyecto 15: Sistema de Gestión de la Liga de Fútbol 
+Sistema robusto para la administración de una Liga de Fútbol Profesional, diseñado para soportar operaciones transaccionales complejas y simulación de grandes volúmenes de datos.
+
+###    Tecnologías
+El núcleo del sistema está construido sobre ** PostgreSQL 17 ** como motor de base de datos, orquestado mediante ** Docker y Docker Compose ** para garantizar la portabilidad. La lógica de automatización y poblado masivo se desarrolló en ** Python ** , integrando librerías clave como ** Faker ** y ** Psycopg2 ** para la generación de datos sintéticos y manipulación eficiente de registros.
+
+###    Características principales
+-   ** Poblado Masivo de Datos ** : Generación automatizada de millones de registros (Jugadores, Partidos, Estadísticas) para pruebas de estrés.
+-   ** Análisis de Rendimiento: ** Comparativa de tiempos de respuesta e inserción entre cargas leves y masivas.
+-   ** Transacciones ACID: ** Manejo seguro de fichajes y reprogramación de partidos.
+-   ** Dockerizado: ** Entorno completamente portátil y aislado.
+
+###    Vistas previas
+
+< tabla align = " centro " >
+  < tr >
+    < td  ancho = " 50% "  alinear = " centro " >
+  		< img width = " 1919 " height = " 866 " alt = " Captura de pantalla 2026-01-09 153400 " src = " https://github.com/user-attachments/assets/a075a538-4e33-4dc8-9226-384b3e245d85 " />
+    </ td >
+    < td ancho = " 50% " alineal = " centro " >
+		< img width = " 1915 " height = " 869 " alt = " Captura de pantalla 2026-01-09 153148 " src = " https://github.com/user-attachments/assets/90ce794d-3ef9-4890-877a-eecdbfb2cfeb " />
+    </ td >
+  </ tr >
+  < tr >
+    < td  ancho = " 50% "  alinear = " centro " >
+      < img  width = " 1919 "  height = " 868 "  alt = " Captura de pantalla 2026-01-09 153459 "  src = " https://github.com/user-attachments/assets/59b146c8-2797-4b5e-bb20-574eaacff1ba " />
+    </td>​​
+  </ tr >
+</ table >
+
+###    Enlaces
+*   ** Código fuente: **   [ Repositorio en GitHub ] ( https://github.com/edu12344/Practica-5.git )
+*   ** Demo en vivo: **   [ Demo en vivo ] ( ( https://ligafutrapido.kesug.com/ ) )
 ---
 ## 📝 Licencia
 Este repositorio y sus proyectos están bajo la **MIT License**.
