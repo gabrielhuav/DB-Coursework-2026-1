@@ -396,7 +396,55 @@ Pagina Web
 El hosting InfinityFree ofrece recursos limitados en su versión gratuita, por lo que el sitio puede requerir recarga tras periodos de inactividad.
 
 ---
+# 🏥Proyecto 8 Sistema de Gestión de Base de Datos para Consultorio Médico
 
+Este proyecto consiste en el diseño e implementación de una **Base de Datos Relacional** robusta para la administración de un consultorio médico. El sistema gestiona la integridad de datos entre médicos, pacientes (asegurados y privados) y citas, implementando reglas de negocio estrictas a través de SQL y una interfaz web controlada.
+
+## 🚀 Tecnologías Utilizadas
+
+* **Motor de Base de Datos:** PostgreSQL 16.
+* **Lenguaje de Backend:** Python 3 (con Flask).
+* **Conector DB:** Psycopg2 (para transacciones seguras y parametrizadas).
+* **Frontend:** HTML5, Jinja2 y Bootstrap 5.
+* **Control de Versiones:** Git & GitHub.
+* **Despliegue (Hosting):** Render (PostgreSQL Service & Web Service).
+
+## 📋 Descripción Técnica del Proyecto
+
+El núcleo de este proyecto es una base de datos normalizada que resuelve la gestión de información clínica mediante:
+
+1.  **Modelo Relacional Jerárquico:** Implementación de **Supertipos y Subtipos** para la entidad `PACIENTE`, diferenciando entre pacientes asegurados (con póliza) y privados (con RFC y facturación), manteniendo la integridad referencial.
+2.  **Restricciones de Integridad (Constraints):**
+    * **Control Anti-Traslape:** Restricción lógica en la tabla `CITA` (`UNIQUE(id_medico, fecha_hora)`) que impide a nivel de base de datos que un médico tenga dos citas agendadas en el mismo horario exacto.
+    * Uso de `UNIQUE` compuesto para evitar duplicidad de expedientes.
+3.  **Sistema de Seguridad RBAC (Role-Based Access Control):**
+    * Tabla `usuarios_web` vinculada a las entidades `MEDICO` y `PACIENTE`.
+    * Diferenciación de permisos: El Administrador tiene acceso total (CRUD), el Médico solo visualiza su agenda y el Paciente su historial personal.
+4.  **Disparadores y Eliminación en Cascada:** Configuración de `ON DELETE CASCADE` para asegurar que al eliminar un paciente, se eliminen consistentemente sus teléfonos, historial y citas asociadas.
+
+## 📸 Capturas de Pantalla
+
+### 1. Inicio de Sesión y Seguridad
+![Login del Sistema]<img width="672" height="606" alt="Captura de pantalla 2026-01-09 011354" src="https://github.com/user-attachments/assets/3f51933e-ca06-44f1-9e32-c8f1be097f78" />
+
+*Autenticación validadando roles contra la tabla `usuarios_web`.*
+
+### 2. Panel de Administración (Dashboard)
+![Dashboard Admin](<img width="1866" height="818" alt="Captura de pantalla 2026-01-09 011421" src="https://github.com/user-attachments/assets/7c5893f6-5cb3-42f6-9f9a-47a0e00272d9" />
+)
+*Vista general de tablas principales con datos poblados.*
+
+### 3. Gestión
+![Agenda Citas]( <img width="1892" height="653" alt="Captura de pantalla 2026-01-09 011602" src="https://github.com/user-attachments/assets/e13ffab6-d9a7-49d0-8964-3fae3066f506" />)
+*Visualización de la agenda médica evitando conflictos de horario.*
+
+## 🔗 Enlaces del Proyecto
+| **💻 Repositorio (Código y Scripts SQL)** | [Ver en GitHub](https://github.com/Sharis-v/ProyectoFinal) |
+| **🌍 Sistema Desplegado (Render)** | [Ver Aplicación en Vivo](https://bdconsultoriofinal.onrender.com) |
+| **📄 Versión Estática (GitHub Pages)** | [Ver Prototipo Visual](https://sharis-v.github.io/ProyectoFinal/) |
+
+---
+*Proyecto desarrollado para la materia de Base de Datos.*
 
 ## 📝 Licencia
 Este repositorio y sus proyectos están bajo la **MIT License**.
