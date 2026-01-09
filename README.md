@@ -107,6 +107,11 @@ Sistema de administración web para gestionar operaciones básicas de una tienda
   </tr>
 </table>
 
+### 🔗 Enlaces
+* **Código Fuente:** [Repositorio en GitHub](https://github.com/jimenezserranoangel9-star/Tienda-de-videojuegos)
+* **Demo en Vivo (Github Pages):** [Bazar Ropa Web]( https://jimenezserranoangel9-star.github.io/Tienda-de-videojuegos/)
+*  **Demo en Vivo:** [Bazar Ropa Web](https://6shk.gt.tc/index.php)
+
 ---
 
 ## Proyecto 3: Fábrica de Juguetes
