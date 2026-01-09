@@ -861,6 +861,30 @@ https://www.basedatos.kesug.com/index.php?
 
 
 
+
+## Proyecto 17: Tienda de abarrotes
+Sistema de gestión para una tienda de abarrotes
+
+### 🛠️ Tecnologías
+* **Backend:** PHP con Eloquent (ORM).
+* **Base de Datos:** MySQL/MariaDB.
+* **Frontend:** HTML con PHP, CSS y JavaScript.
+
+### 🖼️ Capturas
+
+<img width="2794" height="1446" alt="image" src="https://github.com/user-attachments/assets/48032300-7004-4870-bf73-f2ca7ceed3b0" />
+<img width="2798" height="1452" alt="image" src="https://github.com/user-attachments/assets/55008e5f-bebf-4af3-80ff-68a367fd4d42" />
+<img width="2796" height="1446" alt="image" src="https://github.com/user-attachments/assets/e1fab5df-b6a3-487a-b399-f582787cde35" />
+<img width="2796" height="1442" alt="image" src="https://github.com/user-attachments/assets/e3997bb7-0e4b-4b4b-8ffa-09a723d7a67b" />
+<img width="2790" height="1446" alt="image" src="https://github.com/user-attachments/assets/9f05ede0-ecb6-4242-a2c5-406584affeef" />
+<img width="2796" height="1456" alt="image" src="https://github.com/user-attachments/assets/ceba32c4-d838-433b-b820-9022e64d02d3" />
+
+### 🔗 Enlaces
+* **Código Fuente:** [Repositorio en GitHub](https://github.com/sebasschavez/ProyectoBD)
+*  **Demo en Vivo (Render):** [Abarrotes Don Manolo](https://bdproyecto.gt.tc/login.php)
+
+
+
 ## 📝 Licencia
 Este repositorio y sus proyectos están bajo la **MIT License**.
 
