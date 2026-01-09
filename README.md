@@ -543,6 +543,47 @@ Sistema web integral para la gestión, venta y administración de boletos de aut
     <li><strong>Demo Estatica (Github Pages):</strong> <a href="https://an-gumu.github.io/abarrotes_anita.github.io/">Versión Estática</a></li>
 </ul>
 
+---
+
+## Proyecto 11: Sillas y Mesas Hernández
+
+Scripts SQL de creación y carga de datos, y la implementación web en PHP para gestionar clientes, artículos, pedidos y pagos.
+
+### 🛠️ Tecnologías
+
+* **Backend:** PHP (lógica del servidor y conexión a la base de datos)
+* **Base de Datos:** MySQL 8.0 (Alojada en InfinityFree)
+* **Frontend:** HTML5, CSS3 y JavaScript (interfaz web)
+
+
+### 🖼️ Previews
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/9da564a0-a9cb-4639-b4c2-21c60d8c2021" alt="Login y autenticación" width="100%" style="border-radius: 8px;"/>
+    </td>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/9c63aaef-1cac-428e-bb67-ebab53d40e83" alt="Dashboard principal" width="100%" style="border-radius: 8px;"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/af02eef2-f8a6-4376-acf3-b8e696c3eed6" alt="Gestión de artículos" width="100%" style="border-radius: 8px;"/>
+    </td>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/05bbb35e-87c5-4c33-9cc8-3ea6bd897853" alt="Creación de usuarios" width="100%" style="border-radius: 8px;"/>
+    </td>
+  </tr>
+</table>
+
+
+### 🔗 Enlaces
+* **Código Fuente:** [Repositorio en GitHub](https://github.com/ZkDrxzyy/sillas_y_mesas_hernandez)
+* **Demo en Vivo (InfinityFree):** [Sillas y Mesas Hernández Web](https://sillasymesashernandez.42web.io/)
+*  **Demo en Vivo Alterna (Github Pages):** [Sillas y Mesas Hernández Web](https://zkdrxzyy.github.io/sillas_y_mesas_hernandez/)
+
+
 ## 📝 Licencia
 Este repositorio y sus proyectos están bajo la **MIT License**.
 
