@@ -797,7 +797,7 @@ El núcleo del sistema está construido sobre ** PostgreSQL 17 ** como motor de 
 
 ###    Vistas previas
 
-< tabla align = " centro " >
+< table align = " centro " >
   < tr >
     < td  ancho = " 50% "  alinear = " centro " >
   		< img width = " 1919 " height = " 866 " alt = " Captura de pantalla 2026-01-09 153400 " src = " https://github.com/user-attachments/assets/a075a538-4e33-4dc8-9226-384b3e245d85 " />
