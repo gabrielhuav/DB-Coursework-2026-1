@@ -253,9 +253,9 @@ Es un sistemma de gestión de deatos de los miembros, clases, tutores, pagos, in
 <img width="792" height="266" alt="5" src="https://github.com/user-attachments/assets/8ea05ba5-c4f6-4dbb-9c09-ad11dc6a8050" />
 
 ### 🔗 Enlaces
-* **Código Fuente:** https://luisdaniel-cmd.github.io/BDGimansio/
+* **Código Fuente:** [https://luisdaniel-cmd.github.io/BDGimansio/](https://github.com/LuisDaniel-cmd/BDGimansio)
 * **Demo en Vivo (Github Pages):** https://LuisDaniel-cmd.github.io/BDGimansio/
-*  **Demo en Vivo (Render):** [https://gimansioweb.onrender.com/login](https://gimnasio-pro-web.onrender.com)
+*  **Demo en Vivo (Render):** https://gimansioweb.onrender.com
 
 ---
 
