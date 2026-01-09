@@ -797,21 +797,21 @@ El núcleo del sistema está construido sobre ** PostgreSQL 17 ** como motor de 
 
 ###    Vistas previas
 
-< table align = " centro " >
-  < tr >
-    < td  ancho = " 50% "  alinear = " centro " >
-  		< img width = " 1919 " height = " 866 " alt = " Captura de pantalla 2026-01-09 153400 " src = " https://github.com/user-attachments/assets/a075a538-4e33-4dc8-9226-384b3e245d85 " />
-    </ td >
-    < td ancho = " 50% " alineal = " centro " >
-		< img width = " 1915 " height = " 869 " alt = " Captura de pantalla 2026-01-09 153148 " src = " https://github.com/user-attachments/assets/90ce794d-3ef9-4890-877a-eecdbfb2cfeb " />
-    </ td >
-  </ tr >
-  < tr >
-    < td  ancho = " 50% "  alinear = " centro " >
-      < img  width = " 1919 "  height = " 868 "  alt = " Captura de pantalla 2026-01-09 153459 "  src = " https://github.com/user-attachments/assets/59b146c8-2797-4b5e-bb20-574eaacff1ba " />
-    </td>​​
-  </ tr >
-</ table >
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github.com/user-attachments/assets/a075a538-4e33-4dc8-9226-384b3e245d85" alt="Captura de pantalla 1" width="100%" style="border-radius: 8px;"/>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github.com/user-attachments/assets/90ce794d-3ef9-4890-877a-eecdbfb2cfeb" alt="Captura de pantalla 2" width="100%" style="border-radius: 8px;"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github.com/user-attachments/assets/59b146c8-2797-4b5e-bb20-574eaacff1ba" alt="Captura de pantalla 3" width="800" style="border-radius: 8px;"/>
+    </td>
+  </tr>
+</table>
 
 ###    Enlaces
 *   ** Código fuente: **   [ Repositorio en GitHub ] ( https://github.com/edu12344/Practica-5.git )
