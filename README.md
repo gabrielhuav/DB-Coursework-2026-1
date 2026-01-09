@@ -398,6 +398,62 @@ El hosting InfinityFree ofrece recursos limitados en su versión gratuita, por l
 ---
 
 
+## Proyecto 8 : Sistema de Gestión de Inventario y Ventas
+Sistema web integral diseñado para optimizar la administración de una frutería y tienda de abarrotes, permitiendo el control de inventario (por pieza y kilo), ventas y reportes financieros.
+
+## Tecnologías
+Backend: Python (Flask Framework)
+Base de Datos: PostgreSQL (Alojada en Supabase)
+Frontend: HTML5, CSS3, Bootstrap 5 (Responsive Design)
+Motor de Plantillas: Jinja2
+Hosting: Render (Web Service)
+
+## Características Principales
+Gestión de Inventario Híbrida: Soporte para ventas a granel (decimales/kilos) y por unidad.
+
+Ventas y Reportes: Registro histórico inmutable de ventas y tablero de ganancias por fecha.
+
+Catálogos: Administración completa de Productos, Proveedores y Clientes.
+
+Disponibilidad Global: Arquitectura en la nube accesible desde cualquier dispositivo.
+
+Interfaz Moderna: Diseño adaptable con modo oscuro para facilitar la lectura.
+
+## Arquitectura del Sistema
+El sistema utiliza una arquitectura basada en el patrón MVC (Modelo-Vista-Controlador) implementado sobre Flask.
+
+Entidades principales:
+
+Usuarios: Gestión de acceso y roles.
+
+Productos e Inventario: Relación 1:1 para controlar stock y precios.
+
+Ventas e Historial: Tablas transaccionales para el registro de operaciones.
+
+Personas: Entidad padre para la herencia de Clientes y Proveedores.
+
+La conexión a datos se gestiona mediante PostgreSQL asegurando integridad referencial y transacciones seguras.
+
+## Previews
+<img width="1683" height="826" alt="image" src="https://github.com/user-attachments/assets/b2301378-74dd-4bac-a540-28e71d3b057a" />
+
+
+<img width="1658" height="701" alt="image" src="https://github.com/user-attachments/assets/af9ffbde-65fa-4506-9222-2f4dfb4530a6" />
+
+
+<img width="1645" height="760" alt="image" src="https://github.com/user-attachments/assets/f0576144-4bcb-460d-930c-3f7ddd3dea54" />
+
+
+## Enlaces
+Repositorio GitHub: https://github.com/Rafsa07/proyecto-bd-tienda
+
+Demo Estática (GitHub Pages): https://rafsa07.github.io/proyecto-bd-tienda/
+
+Despliegue Oficial (Render): https://tienda-alfredo.onrender.com
+
+## Nota
+Si la página tarda en cargar en Render, por favor esperar unos 50 segundos mientras el servidor se reactiva.
+
 ## 📝 Licencia
 Este repositorio y sus proyectos están bajo la **MIT License**.
 
