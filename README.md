@@ -584,6 +584,80 @@ Scripts SQL de creación y carga de datos, y la implementación web en PHP para 
 *  **Demo en Vivo Alterna (Github Pages):** [Sillas y Mesas Hernández Web](https://zkdrxzyy.github.io/sillas_y_mesas_hernandez/)
 
 
+
+##  Proyecto 12: Sistema de Rentas – Blockbuster
+
+Sistema web para la gestión de rentas de películas y productos estilo Blockbuster, que permite administrar clientes, empleados, productos y el historial de rentas de forma clara y organizada.
+
+---
+
+##  Tecnologías
+
+- **Backend:** Python (Flask)
+- **ORM:** SQLAlchemy
+- **Base de Datos:** PostgreSQL (Supabase)
+- **Frontend:** HTML5, CSS3
+- **Motor de Plantillas:** Jinja2
+- **Hosting:** Render
+- **Versión Estática:** GitHub Pages
+
+---
+
+## Características Principales
+
+- Registro y control de rentas con fechas, estado y pago total.
+- Uso de ORM para manejar relaciones entre tablas sin trabajar directamente con IDs.
+- Visualización de información relacionada (cliente, empleado y producto).
+- Administración de catálogos básicos del sistema.
+- Separación clara entre lógica, vistas y modelos.
+- Interfaz simple y funcional para facilitar el uso.
+
+---
+
+##  Arquitectura del Sistema
+
+El sistema está basado en el patrón **MVC (Modelo–Vista–Controlador)** utilizando Flask.
+
+### Modelos (ORM)
+- Cliente  
+- Empleado  
+- Producto  
+- Renta  
+
+Cada renta se relaciona con un cliente, un empleado y un producto mediante claves foráneas.  
+Gracias a **SQLAlchemy**, es posible acceder directamente a los datos relacionados (por ejemplo, mostrar el nombre del cliente en lugar de su ID).
+
+### Vistas
+- Plantillas HTML renderizadas con Jinja2.
+
+### Controladores
+- Rutas Flask que manejan la lógica de la aplicación.
+
+La base de datos PostgreSQL garantiza integridad referencial y consistencia de los datos.
+
+---
+
+##  Capturas del Proyecto
+---<img width="913" height="604" alt="Captura de pantalla 2026-01-09 094814" src="https://github.com/user-attachments/assets/66f802f0-a6f9-4fcc-ac1c-e9f59fb059ab" />
+<img width="1918" height="617" alt="Captura de pantalla 2026-01-09 094843" src="https://github.com/user-attachments/assets/919bd891-b905-442c-8b89-5365aeadcfb4" />
+<img width="1918" height="768" alt="Captura de pantalla 2026-01-09 095155" src="https://github.com/user-attachments/assets/32cfe157-27c4-4b73-89c0-7cb03a97d773" />
+<img width="1919" height="742" alt="Captura de pantalla 2026-01-09 095212" src="https://github.com/user-attachments/assets/6acde855-c918-4d05-9ea8-7d9421469f7a" />
+<img width="1919" height="743" alt="Captura de pantalla 2026-01-09 095236" src="https://github.com/user-attachments/assets/2b261831-1fbf-4e52-a1f4-7e40f27859f2" />
+
+
+
+## 🔗 Enlaces
+
+- **Repositorio Personal:**  
+  https://github.com/Diego-RGZ/rentas-blockbuster
+
+- **Demo Estática:**  
+  https://diego-rgz.github.io/rentas-blockbuster/
+
+- **Despliegue Oficial (Render):**  
+  https://rentas-blockbuster.onrender.com/
+
+---
 ## 📝 Licencia
 Este repositorio y sus proyectos están bajo la **MIT License**.
 
