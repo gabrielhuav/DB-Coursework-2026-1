@@ -480,6 +480,69 @@ Sistema web integral para la gestión, venta y administración de boletos de aut
 * Demo estática: https://victorl512.github.io/Viajes-Via-real-/
 * Pagina web: http://practica33.infinityfreeapp.com/
 
+
+<hr>
+
+<h2>Proyecto 10: Sistema de Abarrotes Anita</h2>
+<p>Sistema web administrativo diseñado para el control detallado de inventario, proveedores y el historial de compras de una tienda de abarrotes, con énfasis en la clasificación especializada de productos.</p>
+
+<h3>🛠️ Tecnologías</h3>
+<ul>
+    <li><strong>Backend:</strong> PHP Nativo (Manejo de sesiones y transacciones).</li>
+    <li><strong>Base de Datos:</strong> MySQL (Alojada en InfinityFree).</li>
+    <li><strong>Frontend:</strong>HTML5 y CSS3 (Diseño personalizado "Admin-Page").</li>
+</ul>
+
+<h3>🖼️ Previews</h3>
+
+<div align="center">
+ <img width="1919" height="1001" alt="Screenshot 2026-01-09 100612" src="https://github.com/user-attachments/assets/300f304d-f367-495c-9ff4-37b8c84e732f" />
+ <img width="1919" height="541" alt="Screenshot 2026-01-09 100624" src="https://github.com/user-attachments/assets/ecd8988b-1b4e-4114-ac20-be20d890d245" />
+</div>
+
+<table>
+  <tr>
+    <td width="50%">
+      <img width="901" height="864" alt="image" src="https://github.com/user-attachments/assets/fd90e93a-f23c-43ef-ad04-fdf62a6046ad" />
+    </td>
+    <td width="50%">
+      <img width="896" height="877" alt="image" src="https://github.com/user-attachments/assets/42de5c3d-79d0-4046-8ebe-18765940cd6e" />
+    </td>
+  </tr>
+</table>
+
+<h3>🚀 Características Principales</h3>
+<p><strong>📦 Gestión Avanzada de Inventario</strong></p>
+<ul>
+    <li>Clasificación inteligente de productos mediante herencia: <strong>Duraderos</strong> (con garantía) y <strong>No Duraderos</strong> (con fecha de caducidad y temperatura).</li>
+</ul>
+
+<p><strong>🚚 Administración de Proveedores</strong></p>
+<ul>
+    <li>Registro detallado de proveedores con logística de surtido (Día y Hora).</li>
+    <li>Gestión de múltiples números telefónicos por proveedor.</li>
+</ul>
+
+<p><strong>📊 Historial y Seguridad</strong></p>
+<ul>
+    <li>Visualización de tickets de compra y detalles desglosados de productos.</li>
+    <li>Sistema de autenticación seguro con hash de contraseñas (<code>password_verify</code>) y protección de rutas.</li>
+</ul>
+
+<h3>🧩 Arquitectura del Sistema</h3>
+<p>El sistema implementa una arquitectura basada en el patrón <strong>Page Controller</strong>, donde cada archivo PHP gestiona su propia lógica de vista y negocio.</p>
+
+<div align="center">
+	<img width="804" height="601" alt="Diagrama corregido" src="https://github.com/user-attachments/assets/3d805f62-edae-4cb8-b875-0d3d26db987e" />
+</div>
+
+<h3>🔗 Enlaces</h3>
+<ul>
+    <li><strong>Código Fuente:</strong> <a href="https://github.com/An-GuMu/abarrotes-anita">Repositorio en GitHub</a></li>
+    <li><strong>Demo en Vivo (InfinityFree):</strong> <a href="https://abarrotesanita.kesug.com/index.php">Abarrotes Anita Web</a></li>
+    <li><strong>Demo Estatica (Github Pages):</strong> <a href="https://an-gumu.github.io/abarrotes_anita.github.io/">Versión Estática</a></li>
+</ul>
+
 ## 📝 Licencia
 Este repositorio y sus proyectos están bajo la **MIT License**.
 
