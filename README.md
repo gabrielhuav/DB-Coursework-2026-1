@@ -454,6 +454,32 @@ Despliegue Oficial (Render): https://tienda-alfredo.onrender.com
 ## Nota
 Si la página tarda en cargar en Render, por favor esperar unos 50 segundos mientras el servidor se reactiva.
 
+## Proyecto 9: Sistema Web de Gestión de Transporte y Venta de Boletos 🚌
+
+Sistema web integral para la gestión, venta y administración de boletos de autobús. Este proyecto simula la operación real de una central camionera, permitiendo a los usuarios consultar viajes y comprar boletos, y a los administradores gestionar la logística de la empresa.
+
+### 🛠️ Tecnologías Utilizadas
+* Lenguaje Backend: PHP
+* Base de Datos: MySQL (Alojada en InfinityFree)
+* Frontend: HTML5, CSS3, Google Fonts (Montserrat)
+
+### 📋 Características Principales
+* Visualización de Viajes: Listado automático de las próximas salidas disponibles con detalles de hora, origen, destino y modelo de autobús.
+* Compra de Boletos: Formulario para ingresar datos del pasajero (con validación de CURP) y selección de tarifas (Regular, Niño, etc.).
+* Historial de Compras: Módulo "Mis Boletos" para consultar compras pasadas mediante la CURP
+* Gestión de Viajes: Programación de nuevas salidas asignando conductor y unidad. Visualización de la ocupación en tiempo real.
+
+### Preview
+<img width="921" height="429" alt="image" src="https://github.com/user-attachments/assets/aca15969-a011-4d6e-9612-1140d7505633" />
+<img width="921" height="533" alt="image" src="https://github.com/user-attachments/assets/19778b50-8ecc-49fc-97f2-4ce2ba305e5b" />
+<img width="921" height="436" alt="image" src="https://github.com/user-attachments/assets/44b924b2-09d7-451d-a2de-c344e5f01133" />
+<img width="921" height="451" alt="image" src="https://github.com/user-attachments/assets/10f13076-a7c9-4b24-98aa-673eb45d1e43" />
+
+### Enalces
+* Repositorio GitHub: https://github.com/VictorL512/Viajes-Via-real-.git
+* Demo estática: https://victorl512.github.io/Viajes-Via-real-/
+* Pagina web: http://practica33.infinityfreeapp.com/
+
 ## 📝 Licencia
 Este repositorio y sus proyectos están bajo la **MIT License**.
 
