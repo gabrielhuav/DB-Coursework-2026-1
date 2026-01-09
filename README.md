@@ -269,7 +269,6 @@ Es un sistemma de gestión de deatos de los miembros, clases, tutores, pagos, in
 	
 ## Proyecto 6: Sistema Gestion de Gimnasio
 
-
 ### Tecnologías
 * **Backend:** Python / Flask / ORM
 * **Base de Datos:** NeonTech / Postgres
@@ -314,7 +313,7 @@ Base de datos funcional y una página web que permitan:
 
 
 ### 🔗 Enlaces
-* **Repositorio Github:**
+* **Repositorio Github: https://github.com/AlondraOO/ProyectoBases**
 * **Link de Acceso: https://proyectobases-r4a6.onrender.com/**
 NOTA: El servicio de hosting render permite el despliegue durante un numero limitado de minutos, por lo que para su revision, requiere reinicar el deployment
 # Proyecto 7 : Sistema de Gestión – Tienda de Abarrotes
