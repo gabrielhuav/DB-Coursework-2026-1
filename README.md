@@ -817,6 +817,7 @@ El núcleo del sistema está construido sobre ** PostgreSQL 17 ** como motor de 
 *   ** Código fuente: **   [ Repositorio en GitHub ] ( https://github.com/edu12344/Practica-5.git )
 *   ** Demo en vivo: **   [ Demo en vivo ] ( ( https://ligafutrapido.kesug.com/ ) )
 ---
+
 Protyecto 16 
 # Lavanderiaproyecto
 Proyecto final 
