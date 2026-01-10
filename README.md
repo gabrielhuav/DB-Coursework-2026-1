@@ -1136,8 +1136,8 @@ Este proyecto consiste en el diseño e implementación de una base de datos rela
 ### 🔗 Enlaces
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/elimon2006-ux/restaurante)
 * **URL:** [Restaurantel](https://restaurante-o4bj.onrender.com/)
-* **DRepositorio GitHub Pages:** [Repositorio en GitHub Pages]([https://github.com/elimon2006-ux/elimon2006-ux.github.io)
-*  **URL Git Hub Pages:** [Restaurante](https://elimon2006-ux.github.io/index.html)
+* **Repositorio GitHub Pages:** [Repositorio en GitHub Pages](https://github.com/elimon2006-ux/elimon2006-ux.github.io)
+* **URL Git Hub Pages:** [Restaurante](https://elimon2006-ux.github.io/index.html)
 
 
    ## 📝 Licencia
