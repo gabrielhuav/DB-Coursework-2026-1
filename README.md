@@ -817,7 +817,7 @@ El núcleo del sistema está construido sobre **PostgreSQL 17** como motor de ba
 </table>
 
 ###    Enlaces
-*   **Código fuente:**   [ Repositorio en GitHub ] ( https://github.com/edu12344/Practica-5.git )
+*   **Código fuente:**   [ Repositorio en GitHub ] ( (https://github.com/piriart5/documentacion_liga_futbol_basesdedatos.git))
 *   **Demo en vivo:**   [ Demo en vivo ] ( ( https://ligafutrapido.kesug.com/ ) )
 ---
 
