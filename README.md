@@ -238,6 +238,7 @@ Sistema web para gestionar las operaciones de un Taller Automotriz
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/GabrielEC9/proyecto_BD_practica31)
 * **Demo en Vivo:** [Taller Automotrizl](https://proyecto-bd-practica31.onrender.com/login.html)
 * **Demo en Vivo GitHub Pages:** ([https://jr-devel.github.io/doly_front_escom/](https://gabrielec9.github.io/pagina-estatica-BD3CV2/)
+* * **(Usuario: gabriel@gmail.com   Contraseña: admin)** 
 ---
 ## Proyecto 6: Gimnasio
 Es un sistemma de gestión de deatos de los miembros, clases, tutores, pagos, instructores mediante el uso de diferentes roles. En este caso, sería el jefe, recepcionista y a los clientes que deseen ver sus datos.
