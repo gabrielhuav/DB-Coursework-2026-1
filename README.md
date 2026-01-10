@@ -1093,7 +1093,44 @@ https://xandx22.github.io/Proyecto/htdocs/htdocs/index
 # Página web
 https://zoologicogestion.infinityfree.me
 
-## 📝 Licencia
+# 🍽️ **SProyecto 19 istema Web de Restaurante 
+Este proyecto consiste en el diseño e implementación de una base de datos relacional para optimizar el control de inventarios, pedidos y ventas de un restaurante. 
+
+# 🖼 **Capturas de Pantalla**
+
+### 1. Página de Inicio
+
+<img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/acc0bc9e-596e-44e7-a424-a7ae6c686204" />
+
+### 2. Login
+
+<img width="1919" height="877" alt="image" src="https://github.com/user-attachments/assets/01f6ee20-fc81-4ac6-af35-09292140a7b9" />
+
+
+### 3. Registro de Clientes
+
+<img width="1919" height="875" alt="image" src="https://github.com/user-attachments/assets/ebf1e82c-39ab-40df-8832-1b7be2f68617" />
+<img width="1919" height="879" alt="image" src="https://github.com/user-attachments/assets/8f5d03da-f842-4860-bc2d-01dd898440ff" />
+
+
+### 4. Menú de Platillos
+
+<img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/c72ed1d7-dedc-4be9-905b-57a0620cc50b" />
+
+### Se divide en 4 categorias
+* TACOS
+* COMIDA CASERA
+* BEBIDAS
+* POSTRES
+
+### 🔗 Enlaces
+* **Código Fuente:** [Repositorio en GitHub](https://github.com/elimon2006-ux/restaurante)
+* **URL:** [TRestaurantel](https://restaurante-o4bj.onrender.com/)
+* **DRepositorio GitHub Pages:** [Repositorio en GitHub Pages]([https://github.com/elimon2006-ux/elimon2006-ux.github.io)
+*  **URL Git Hub Pages:** [Restaurante](https://elimon2006-ux.github.io/index.html)
+
+
+   ## 📝 Licencia
 Este repositorio y sus proyectos están bajo la **MIT License**.
 
 Copyright (c) 2026 - Curso de Bases de Datos 2026-I
