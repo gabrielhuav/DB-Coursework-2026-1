@@ -315,7 +315,7 @@ Base de datos funcional y una página web que permitan:
 ### 🔗 Enlaces
 * **Repositorio Github: https://github.com/AlondraOO/ProyectoBases**
 * **Link de Acceso: https://proyectobases-r4a6.onrender.com/**
-* **GITHUB PAGES: https://alondraoo.github.io/ProyectoBases/clases.html**
+* **GITHUB PAGES: https://alondraoo.github.io/ProyectoBases/index.html**
 
 
 
