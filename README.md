@@ -1093,8 +1093,18 @@ https://xandx22.github.io/Proyecto/htdocs/htdocs/index
 # Página web
 https://zoologicogestion.infinityfree.me
 
-# 🍽️ **SProyecto 19 istema Web de Restaurante 
+# 🍽️ **Proyecto 19 istema Web de Restaurante**
 Este proyecto consiste en el diseño e implementación de una base de datos relacional para optimizar el control de inventarios, pedidos y ventas de un restaurante. 
+
+
+# 🧱 **Tecnologías Utilizadas**
+
+* **Python + Flask**: Backend web y manejo de rutas
+* **SQLAlchemy (ORM)**: Acceso a base de datos usando modelos
+* **PostgreSQL (Supabase)**: Base de datos relacional
+* **HTML / CSS**: Interfaz visual
+* **Jinja2**: Plantillas dinámicas
+* **dotenv**: Variables de entorno
 
 # 🖼 **Capturas de Pantalla**
 
@@ -1125,7 +1135,7 @@ Este proyecto consiste en el diseño e implementación de una base de datos rela
 
 ### 🔗 Enlaces
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/elimon2006-ux/restaurante)
-* **URL:** [TRestaurantel](https://restaurante-o4bj.onrender.com/)
+* **URL:** [Restaurantel](https://restaurante-o4bj.onrender.com/)
 * **DRepositorio GitHub Pages:** [Repositorio en GitHub Pages]([https://github.com/elimon2006-ux/elimon2006-ux.github.io)
 *  **URL Git Hub Pages:** [Restaurante](https://elimon2006-ux.github.io/index.html)
 
