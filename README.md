@@ -315,7 +315,11 @@ Base de datos funcional y una página web que permitan:
 ### 🔗 Enlaces
 * **Repositorio Github: https://github.com/AlondraOO/ProyectoBases**
 * **Link de Acceso: https://proyectobases-r4a6.onrender.com/**
+* **GITHUB PAGES: https://alondraoo.github.io/ProyectoBases/clases.html**
 NOTA: El servicio de hosting render permite el despliegue durante un numero limitado de minutos, por lo que para su revision, requiere reinicar el deployment
+
+
+
 # Proyecto 7 : Sistema de Gestión – Tienda de Abarrotes
 
 Sistema integral para la gestión de inventario, ventas y pagos a crédito de una tienda de abarrotes.
