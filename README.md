@@ -286,31 +286,27 @@ Base de datos funcional y una página web que permitan:
 
 
 ### Visualizacion
-<img width="1800" height="1044" alt="inicio" src="https://github.com/user-attachments/assets/4007f341-47d5-41fb-a663-bee7fef14cfc" />
+<div align="center">
 
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/4007f341-47d5-41fb-a663-bee7fef14cfc" alt="inicio" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/d1923dd9-f1e4-4561-b20e-cd4a0e3c9097" alt="principal" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/f92f01ef-ea0b-464f-8ed4-daa02450d47f" alt="socios" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/7d37ebfd-d05e-4093-957b-332f4714a0b9" alt="clases" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/a4057b4f-cbb1-4d38-9a42-f0c81346c7ee" alt="instructores" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/90cde8a8-d34c-4bcd-8f0c-4221f44a7371" alt="pagos" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/94017569-1035-4a92-98d6-80d8ac594d75" alt="asistencia" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/1ebef152-3148-4ca2-83eb-d6f9b8101f12" alt="nuevo socio" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/e18dc774-0f99-43f4-86d1-d967725a23bf" alt="nueva clase" width="400"/></td>
+  </tr>
+</table>
 
-<img width="1800" height="1049" alt="princip" src="https://github.com/user-attachments/assets/d1923dd9-f1e4-4561-b20e-cd4a0e3c9097" />
-
-
-<img width="1800" height="1047" alt="socios" src="https://github.com/user-attachments/assets/f92f01ef-ea0b-464f-8ed4-daa02450d47f" />
-
-
-<img width="1800" height="1045" alt="clases" src="https://github.com/user-attachments/assets/7d37ebfd-d05e-4093-957b-332f4714a0b9" />
-
-
-<img width="1800" height="1044" alt="instructores" src="https://github.com/user-attachments/assets/a4057b4f-cbb1-4d38-9a42-f0c81346c7ee" />
-
-
-<img width="1800" height="1046" alt="pagos" src="https://github.com/user-attachments/assets/90cde8a8-d34c-4bcd-8f0c-4221f44a7371" />
-
-
-<img width="1800" height="1045" alt="asistencia" src="https://github.com/user-attachments/assets/94017569-1035-4a92-98d6-80d8ac594d75" />
-
-
-<img width="1800" height="1046" alt="nuevo socio" src="https://github.com/user-attachments/assets/1ebef152-3148-4ca2-83eb-d6f9b8101f12" />
-
-
-<img width="1800" height="1048" alt="nueva clase" src="https://github.com/user-attachments/assets/e18dc774-0f99-43f4-86d1-d967725a23bf" />
+</div>
 
 
 ### 🔗 Enlaces
