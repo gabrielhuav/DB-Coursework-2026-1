@@ -470,10 +470,15 @@ Sistema web integral para la gestión, venta y administración de boletos de aut
 * Gestión de Viajes: Programación de nuevas salidas asignando conductor y unidad. Visualización de la ocupación en tiempo real.
 
 ### Preview
-<img width="921" height="429" alt="image" src="https://github.com/user-attachments/assets/aca15969-a011-4d6e-9612-1140d7505633" />
-<img width="921" height="533" alt="image" src="https://github.com/user-attachments/assets/19778b50-8ecc-49fc-97f2-4ce2ba305e5b" />
-<img width="921" height="436" alt="image" src="https://github.com/user-attachments/assets/44b924b2-09d7-451d-a2de-c344e5f01133" />
-<img width="921" height="451" alt="image" src="https://github.com/user-attachments/assets/10f13076-a7c9-4b24-98aa-673eb45d1e43" />
+
+<img width="1356" height="630" alt="image" src="https://github.com/user-attachments/assets/f279067d-74c7-47dc-a401-d663365dbfe1" />
+
+<img width="934" height="633" alt="image" src="https://github.com/user-attachments/assets/7f53885b-e478-497a-87ad-5a08c27796b0" />
+
+<img width="816" height="632" alt="image" src="https://github.com/user-attachments/assets/88457751-14be-4db2-ac2e-fb6157562eb7" />
+
+<img width="878" height="629" alt="image" src="https://github.com/user-attachments/assets/418128fe-6d34-4352-8f87-4a7aa9d7d50e" />
+
 
 ### Enalces
 * Repositorio GitHub: https://github.com/VictorL512/Viajes-Via-real-.git
