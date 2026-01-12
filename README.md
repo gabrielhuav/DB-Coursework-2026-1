@@ -1341,11 +1341,12 @@ MySQL: root/rootpass
 phpMyAdmin: localhost:8080
 
 ---
+
 # Proyecto 22
 
 ## Sistema de Gestión de Reservas de un Hotel
 
-## Descripción
+### Descripción
 Sistema web integral para la gestión de reservas de hotel, administración de habitaciones y solicitud de servicios
 
 ### Tecnologías usadas
