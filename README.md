@@ -1235,15 +1235,13 @@ Plataforma administrativa integral para el Club de Tiro con Arco del IPN, diseñ
 ---
 
 ### 📸 Capturas de Pantalla
-## 📸 Interfaz del Sistema - Equipo 21
-
-| Módulo del Sistema | Vista Previa (Captura de Pantalla) |
+| Módulo del Sistema | Vista Previa de la Aplicación |
 | :--- | :--- |
-| **Dashboard de Analítica (DWH)** | <img width="400" alt="Dashboard" src="https://github.com/user-attachments/assets/8aa0d333-2108-40de-b064-739af18bffe1"> |
-| **Gestión de Miembros y Atletas** | <img width="400" alt="Atletas" src="https://github.com/user-attachments/assets/1b200d3b-f246-470a-ad98-cd8ebc7dc083"> |
-| **Sistema de Cuentas y Acceso** | <img width="400" alt="Login" src="https://github.com/user-attachments/assets/47050121-9b60-486f-9d8c-ee6ccffe37d3"> |
-| **Control de Inventario (Arcos)** | <img width="400" alt="Inventario" src="https://github.com/user-attachments/assets/0ebc425f-d7bd-4142-99a7-fdff074566af"> |
-| **Administración de Clases y Coaches** | <img width="400" alt="Menu" src="https://github.com/user-attachments/assets/8ea05ba5-c4f6-4dbb-9c09-ad11dc6a8050"> |
+| **Dashboard de Analítica Avanzada (DWH)** | <img width="780" alt="Dashboard" src="https://raw.githubusercontent.com/fafamarquez/TIROIPN/main/app/static/img/stats.png" /> |
+| **Gestión de Miembros y Atletas (CURP)** | <img width="780" alt="Atletas" src="https://raw.githubusercontent.com/fafamarquez/TIROIPN/main/app/static/img/atletas.png" /> |
+| **Sistema de Cuentas y Permisos** | <img width="780" alt="Login" src="https://raw.githubusercontent.com/fafamarquez/TIROIPN/main/app/static/img/login.png" /> |
+| **Administración Integral (Clases/Equipo)** | <img width="780" alt="Menu" src="https://raw.githubusercontent.com/fafamarquez/TIROIPN/main/app/static/img/menu.png" /> |
+
 
 ---
 
