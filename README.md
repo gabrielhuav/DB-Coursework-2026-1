@@ -892,7 +892,8 @@ Sistema de gestión para una tienda de abarrotes
 
 ### 🔗 Enlaces
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/sebasschavez/ProyectoBD)
-*  **Demo en Vivo (Render):** [Abarrotes Don Manolo](https://bdproyecto.gt.tc/login.php)
+* **Demo en Vivo (Github Pages):** [Bazar Ropa Web](https://lunaemg.github.io/bazar_ropa_project/)
+*  **Demo en Vivo:** [Abarrotes Don Manolo](https://bdproyecto.gt.tc/login.php)
 
 
 # Proyecto 18
