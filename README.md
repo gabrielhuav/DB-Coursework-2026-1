@@ -875,12 +875,20 @@ Sistema de gestión para una tienda de abarrotes
 
 ### 🖼️ Capturas
 
-<img width="2794" height="1446" alt="image" src="https://github.com/user-attachments/assets/48032300-7004-4870-bf73-f2ca7ceed3b0" />
-<img width="2798" height="1452" alt="image" src="https://github.com/user-attachments/assets/55008e5f-bebf-4af3-80ff-68a367fd4d42" />
-<img width="2796" height="1446" alt="image" src="https://github.com/user-attachments/assets/e1fab5df-b6a3-487a-b399-f582787cde35" />
-<img width="2796" height="1442" alt="image" src="https://github.com/user-attachments/assets/e3997bb7-0e4b-4b4b-8ffa-09a723d7a67b" />
-<img width="2790" height="1446" alt="image" src="https://github.com/user-attachments/assets/9f05ede0-ecb6-4242-a2c5-406584affeef" />
-<img width="2796" height="1456" alt="image" src="https://github.com/user-attachments/assets/ceba32c4-d838-433b-b820-9022e64d02d3" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/48032300-7004-4870-bf73-f2ca7ceed3b0" width="45%" />
+  <img src="https://github.com/user-attachments/assets/55008e5f-bebf-4af3-80ff-68a367fd4d42" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e1fab5df-b6a3-487a-b399-f582787cde35" width="45%" />
+  <img src="https://github.com/user-attachments/assets/e3997bb7-0e4b-4b4b-8ffa-09a723d7a67b" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9f05ede0-ecb6-4242-a2c5-406584affeef" width="45%" />
+  <img src="https://github.com/user-attachments/assets/ceba32c4-d838-433b-b820-9022e64d02d3" width="45%" />
+</p>
 
 ### 🔗 Enlaces
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/sebasschavez/ProyectoBD)
