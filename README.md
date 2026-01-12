@@ -1568,3 +1568,61 @@ Diseño, implementación y explotación de un Cubo de Datos (OLAP) utilizando te
 ### Enlaces
 * **Código Fuente PENTAHO:** [Código fuente del proyecto](https://github.com/ZkDrxzyy/Cubo_de_Datos_PF)
 * **Código Fuente SQLSRV:** [Código fuente del proyecto](https://github.com/ZkDrxzyy/Cubo_de_Datos_SQLSRV)
+
+# 🏥 Proyecto 26 Sistema de Gestión de Base de Datos para Consultorio Médico
+
+Este proyecto consiste en el diseño e implementación de una **Base de Datos Relacional** robusta para la administración de un consultorio médico. El sistema gestiona la integridad de datos entre médicos, pacientes (asegurados y privados) y citas, implementando reglas de negocio estrictas a través de SQL y una interfaz web controlada.
+
+## 🚀 Tecnologías Utilizadas
+
+* **Motor de Base de Datos:** PostgreSQL 16.
+* **Lenguaje de Backend:** Python 3 (con Flask).
+* **Conector DB:** Psycopg2 (para transacciones seguras y parametrizadas).
+* **Frontend:** HTML5 y Bootstrap 5.
+* **Control de Versiones:** Git & GitHub.
+* **Despliegue (Hosting):** Render (PostgreSQL Service & Web Service).
+
+## 📋 Descripción Técnica del Proyecto
+
+El núcleo de este proyecto es una base de datos normalizada que resuelve la gestión de información clínica mediante:
+
+1.  **Modelo Relacional Jerárquico:** Implementación de **Supertipos y Subtipos** para la entidad `PACIENTE`, diferenciando entre pacientes asegurados (con póliza) y privados (con RFC y facturación), manteniendo la integridad referencial.
+2.  **Restricciones de Integridad (Constraints):**
+    * **Control Anti-Traslape:** Restricción lógica en la tabla `CITA` (`UNIQUE(id_medico, fecha_hora)`) que impide a nivel de base de datos que un médico tenga dos citas agendadas en el mismo horario exacto.
+    * Uso de `UNIQUE` compuesto para evitar duplicidad de expedientes.
+3.  **Sistema de Seguridad RBAC (Role-Based Access Control):**
+    * Tabla `usuarios_web` vinculada a las entidades `MEDICO` y `PACIENTE`.
+    * Diferenciación de permisos: El Administrador tiene acceso total (CRUD), el Médico solo visualiza su agenda y el Paciente su historial personal.
+4.  **Disparadores y Eliminación en Cascada:** Configuración de `ON DELETE CASCADE` para asegurar que al eliminar un paciente, se eliminen consistentemente sus teléfonos, historial y citas asociadas.
+
+## 📸 Capturas de Pantalla
+
+### 1. Inicio de Sesión y Seguridad
+![Login del Sistema](<img width="672" height="606" alt="Captura de pantalla 2026-01-09 011354" src="https://github.com/user-attachments/assets/01ef99e2-5274-405b-8f53-5366ee668f58" />
+)
+*Autenticación validadando roles contra la tabla `usuarios_web`.*
+
+### 2. Panel de Administración (Dashboard)
+![Dashboard Admin](<img width="1866" height="818" alt="Captura de pantalla 2026-01-09 011421" src="https://github.com/user-attachments/assets/fe654f05-7202-434b-9a43-0d0248e1639a" />
+<img width="1837" height="406" alt="Captura de pantalla 2026-01-09 011456" src="https://github.com/user-attachments/assets/478f239b-f5a2-444e-b8ec-248d4fc44b07" />
+)
+*Vista general de tablas principales con datos poblados.*
+
+### 3. Gestión de Citas
+![Agenda Citas](<img width="1892" height="653" alt="Captura de pantalla 2026-01-09 011602" src="https://github.com/user-attachments/assets/f350fec8-b468-49ea-91a1-aa1d6f757fcf" />
+)<img width="1899" height="536" alt="Captura de pantalla 2026-01-09 011534" src="https://github.com/user-attachments/assets/251b0ed9-dc71-4ede-b9d8-dd2165b10901" />
+
+*Visualización de la agenda médica evitando conflictos de horario.*
+
+*(Nota: Las imágenes deben estar en una carpeta llamada 'img' dentro del repositorio)*
+
+## 🔗 Enlaces del Proyecto
+
+| Recurso | Enlace |
+| :--- | :--- |
+| **💻 Repositorio (Código y Scripts SQL)** | [Ver en GitHub](https://github.com/Sharis-v/ProyectoFinal) |
+| **🌍 Sistema Desplegado (Render)** | [Ver Aplicación en Vivo](https://bdconsultoriofinal.onrender.com) |
+| **📄 Versión Estática (GitHub Pages)** | [Ver Prototipo Visual](https://sharis-v.github.io/ProyectoFinal/) |
+
+---
+*Proyecto desarrollado para la materia de Base de Datos.*
