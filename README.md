@@ -1208,3 +1208,35 @@ Sistema de administración web para gestionar operaciones básicas de una joyer�
 Este repositorio y sus proyectos están bajo la **MIT License**.
 
 Copyright (c) 2026 - Curso de Bases de Datos 2026-I
+
+
+---
+# Proyecto 21
+
+## 🏹 Sistema de Gestión y Analítica - Club de Tiro con Arco IPN
+
+### 📝 Descripción
+Plataforma administrativa integral para el Club de Tiro con Arco del IPN, diseñada para gestionar atletas, inventario y rendimiento deportivo. El sistema destaca por su arquitectura de **Data Warehouse (DWH)** que utiliza procesos ETL para transformar datos operativos en indicadores visuales estratégicos mediante Flask, PostgreSQL y Chart.js.
+
+---
+
+### 📸 Capturas de Pantalla
+[Dashboard de Analítica Avanzada (DWH)](https://github.com/fafamarquez/TIROIPN/blob/main/app/static/img/stats.png)
+[Gestión de Miembros y Atletas con validación de CURP](https://github.com/fafamarquez/TIROIPN/blob/main/app/static/img/atletas.jpg)
+[Control de Inventario y Equipo Deportivo](https://github.com/fafamarquez/TIROIPN/blob/main/app/static/img/login.jpg)
+[Administración de Clases y Niveles Institucionales](https://github.com/fafamarquez/TIROIPN/blob/main/app/static/img/menu.jpg)
+
+---
+
+### 🔗 Enlaces del Proyecto
+* **Repositorio de Código (GitHub):** [https://github.com/fafamarquez/TIROIPN](https://github.com/fafamarquez/TIROIPN)
+* **Página Web Oficial (Producción en Render):** [https://tiro-con-arco-ipn.onrender.com/](https://tiro-con-arco-ipn.onrender.com/)
+* **Demo Estática Funcional (GitHub Pages):** [https://fafamarquez.github.io/TIROIPN/](https://fafamarquez.github.io/TIROIPN/)
+
+---
+
+### 🛠️ Tecnologías y Características
+* **Backend:** Python / Flask con SQLAlchemy (ORM).
+* **Base de Datos:** PostgreSQL en la nube (Neon) con esquemas relacionales y analíticos.
+* **Frontend:** Diseño responsivo con Bootstrap 5 e identidad visual institucional IPN.
+* **Data Engineering:** Sincronización automática de datos y validación mediante expresiones regulares (Regex).
