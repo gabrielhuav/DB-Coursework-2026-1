@@ -1374,7 +1374,7 @@ Sistema web integral para la gestión de reservas de hotel, administración de h
 ### Enlaces
 * **Código Fuente:** [Código fuente del proyecto](https://github.com/Gonzalo-721/Proyecto)
 * **Demo en Vivo:** [Demo de la página](https://gonzalo-721.github.io/Pagina-demo/)
-* **Página en Render:**[Página Render](https://proyectobases-2q07.onrender.com/)
+* **Página en Render:** [Página Render](https://proyectobases-2q07.onrender.com/)
 
 ---
 
