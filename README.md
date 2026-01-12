@@ -1711,6 +1711,11 @@ sistema-f1/
 ├── generar_hashes.php         # sistema de segurirdad login                
 
 ### **Imagenes del proyecto**
+Datos prueba pagina web:
+Usuario: admin
+Contraseña: admin123
+
+### **Imagenes del proyecto**
 
 <img width="321" height="366" alt="image" src="https://github.com/user-attachments/assets/61231b07-eb4e-47f2-8ec2-352a40c1ef4d" />
 <img width="1251" height="848" alt="image" src="https://github.com/user-attachments/assets/9fbd0b8f-5c48-4aa2-a7e9-909e54333f70" />
