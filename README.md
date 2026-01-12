@@ -1227,10 +1227,10 @@ Plataforma administrativa integral para el Club de Tiro con Arco del IPN, diseñ
 ### Gestión de Miembros y Atletas con validación de CURP
 ![Atletas](https://raw.githubusercontent.com/fafamarquez/TIROIPN/main/app/static/img/atletas.png)
 
-### Control de Inventario y Equipo Deportivo
+### Sistema de cuentas y permisos
 ![Inventario](https://raw.githubusercontent.com/fafamarquez/TIROIPN/main/app/static/img/login.png)
 
-### Administración de Clases y Niveles Institucionales
+### Administración de Clases, Niveles, Equipo y Entrenadores
 ![Clases](https://raw.githubusercontent.com/fafamarquez/TIROIPN/main/app/static/img/menu.png)
 
 ---
@@ -1243,7 +1243,9 @@ Plataforma administrativa integral para el Club de Tiro con Arco del IPN, diseñ
 ---
 
 ### 🛠️ Tecnologías y Características
-* **Backend:** Python / Flask con SQLAlchemy (ORM).
-* **Base de Datos:** PostgreSQL en la nube (Neon) con esquemas relacionales y analíticos.
-* **Frontend:** Diseño responsivo con Bootstrap 5 e identidad visual institucional IPN.
-* **Data Engineering:** Sincronización automática de datos y validación mediante expresiones regulares (Regex).
+* **Arquitectura de Datos:** **Data Warehouse (DWH)** con procesos de extracción y transformación para analítica deportiva.
+* **Backend:** Python 3.x / Flask con SQLAlchemy (ORM).
+* **Base de Datos:** PostgreSQL alojado en **Neon.tech** (Esquemas relacionales y analíticos).
+* **Frontend:** Bootstrap 5 e identidad visual institucional IPN.
+* **Visualización:** Chart.js para el despliegue dinámico de métricas del DWH.
+* **Despliegue:** Render (App dinámica) y GitHub Pages (Demo estática en carpeta `/docs`).
