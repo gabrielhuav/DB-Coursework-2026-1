@@ -1318,7 +1318,8 @@ HechoVentasDetalle (centro del cubo)
 ## 🔗 Enlaces
 
 - **Repositorio Cubo OLAP:**  
- 📂 [cubo-de-datos](https://github.com/camila-24/cubo-de-datos)
+ 📂 [cubo-de-datos]:
+(https://github.com/camilaalpha24-cyber/Cubo-de-datos-)
 
 - **Demo OLTP Original:**  
   [https://practicabase2005.infinityfreeapp.com/](https://practicabase2005.infinityfreeapp.com/)
