@@ -470,15 +470,10 @@ Sistema web integral para la gestión, venta y administración de boletos de aut
 * Gestión de Viajes: Programación de nuevas salidas asignando conductor y unidad. Visualización de la ocupación en tiempo real.
 
 ### Preview
-
-<img width="1356" height="630" alt="image" src="https://github.com/user-attachments/assets/f279067d-74c7-47dc-a401-d663365dbfe1" />
-
-<img width="934" height="633" alt="image" src="https://github.com/user-attachments/assets/7f53885b-e478-497a-87ad-5a08c27796b0" />
-
-<img width="816" height="632" alt="image" src="https://github.com/user-attachments/assets/88457751-14be-4db2-ac2e-fb6157562eb7" />
-
-<img width="878" height="629" alt="image" src="https://github.com/user-attachments/assets/418128fe-6d34-4352-8f87-4a7aa9d7d50e" />
-
+<img width="921" height="429" alt="image" src="https://github.com/user-attachments/assets/aca15969-a011-4d6e-9612-1140d7505633" />
+<img width="921" height="533" alt="image" src="https://github.com/user-attachments/assets/19778b50-8ecc-49fc-97f2-4ce2ba305e5b" />
+<img width="921" height="436" alt="image" src="https://github.com/user-attachments/assets/44b924b2-09d7-451d-a2de-c344e5f01133" />
+<img width="921" height="451" alt="image" src="https://github.com/user-attachments/assets/10f13076-a7c9-4b24-98aa-673eb45d1e43" />
 
 ### Enalces
 * Repositorio GitHub: https://github.com/VictorL512/Viajes-Via-real-.git
@@ -1411,7 +1406,7 @@ Plataforma integral de análisis y gestión para videojuegos que combina un **si
 **GitHub:** [https://github.com/IISGRI/Proyecto-BD](https://github.com/IISGRI/Proyecto-BD)
 
 ### 🌐 Aplicación Web en Producción
-**Render.com:** [https://videojuegobd.onrender.com](https://videojuegobd.onrender.com)
+**Render.com:** m[https://videojuegobd.onrender.co](https://videojuegobd.onrender.com)
 
 ### 📊 Versión Estática Funcional (GitHub Pages)
 **GitHub Pages:** [https://iisgri.github.io/Proyecto-BD/](https://iisgri.github.io/Proyecto-BD/)
@@ -1495,3 +1490,89 @@ Para instrucciones detalladas de configuración de ambos métodos OLAP (Mondrian
 - **Guía SSAS:** Sección "MÉTODO 2: Implementación con SQL Server + SSAS"
 
 ---
+
+# Proyecto 24
+
+## Sistema de Gestión Equipo De F1 
+
+### Descripción
+Sistema integral de gestión para equipo de Fórmula 1 que permite administrar pilotos, autos, circuitos, carreras y resultados en tiempo real. Plataforma web completa con autenticación, CRUD avanzado y reporting.
+## Características Principales
+
+### 🔐 **Sistema de Seguridad**
+- Autenticación de usuarios con roles (Piloto, Mecánico, Administrador)
+- Protección de rutas y sesiones
+- Encriptación de credenciales
+
+### 📊 **Módulos del Sistema**
+1. **Gestión de Pilotos**
+   - Perfiles completos con historial
+   - Contratos y obligaciones
+   - Licencias FIA y certificaciones
+
+2. **Control de Autos**
+   - Especificaciones técnicas detalladas
+   - Historial de mantenimiento
+   - Estado actual y disponibilidad
+
+3. **Circuitos y Carreras**
+   - Base de datos de circuitos internacionales
+   - Calendario de temporada
+   - Condiciones climáticas históricas
+
+4. **Resultados y Estadísticas**
+   - Sistema de puntos FIA
+   - Comparativas entre pilotos
+   - Análisis de rendimiento
+
+5. **Mantenimiento**
+   - Programación de servicios
+   - Control de inventario
+   - Costos y presupuestos
+
+## 🛠️ **Tecnologías Utilizadas**
+
+### **Frontend (Cliente)**
+| Tecnología | Uso | Versión |
+|------------|-----|---------|
+| **HTML5** | Estructura semántica | HTML5 |
+| **CSS3** | Estilos y diseño responsive
+| **JavaScript** | Lógica de aplicación | ES2022 |
+| **LocalStorage** | Persistencia de datos | API nativa |
+
+### **Backend (Servidor) - Versión Original**
+| Tecnología | Uso | Versión |
+|------------|-----|---------|
+| **PHP** | Lógica del servidor | 8.x |
+| **MySQL** | Base de datos | 8.0+ |
+| **PDO** | Conexión a BD | PHP PDO |
+| **JSON** | Comunicación API | API REST |
+| **Apache** | Servidor web | 2.4+ |
+| **infinityfree** | servidor de hoosting |
+
+👤 Usuario de prueba
+
+Para probar el sistema se incluye el siguiente usuario:
+
+usuario: admin
+Contraseña: admin123
+
+### IMAGENES DEL PROYCETO 
+<img width="1890" height="1031" alt="image" src="https://github.com/user-attachments/assets/d7c406a5-c4a0-4e17-a695-f52b77635829" />
+<img width="415" height="466" alt="image" src="https://github.com/user-attachments/assets/370bb084-b571-4f53-add1-ba2a1f60b793" />
+
+<img width="1219" height="887" alt="image" src="https://github.com/user-attachments/assets/db8a7207-cb80-41d8-a403-e207408e618d" />
+<img width="1174" height="885" alt="image" src="https://github.com/user-attachments/assets/70c0d912-6d63-41f5-8134-707e0ce7e05b" />
+
+<img width="1182" height="823" alt="image" src="https://github.com/user-attachments/assets/f5a0bb16-3c3a-4f7c-9b4e-49f270576fbf" />
+
+## 🔗 Enlaces del Proyecto
+
+### 📦 Repositorio de Código Fuente
+**GitHub:** [https://github.com/J-Arturo-HDC/GestionF1](https://github.com/J-Arturo-HDC/GestionF1)
+### 🌐 Aplicación Web en Producción
+**Demo web:** [https://f1racing.infinityfreeapp.com](https://f1racing.infinityfreeapp.com/)
+### 📊 Versión Estática Funcional (GitHub Pages)
+**GitHub Pages:** [https://github.com/J-Arturo-HDC/GestionF1](https://j-arturo-hdc.github.io/GestionF1/)
+
+
