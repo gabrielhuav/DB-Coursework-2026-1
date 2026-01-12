@@ -1343,7 +1343,7 @@ phpMyAdmin: localhost:8080
 ---
 # Proyecto 22
 
-## Proyecto: Sistema de Gestión de Reservas de un Hotel
+## Sistema de Gestión de Reservas de un Hotel
 
 ## Descripción
 Sistema web integral para la gestión de reservas de hotel, administración de habitaciones y solicitud de servicios
