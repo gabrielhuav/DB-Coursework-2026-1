@@ -1521,3 +1521,50 @@ Para instrucciones detalladas de configuración de ambos métodos OLAP (Mondrian
 - **Guía SSAS:** Sección "MÉTODO 2: Implementación con SQL Server + SSAS"
 
 ---
+
+# Proyecto 25
+
+## Cubos de Datos OLAP (Pentaho y SQLSRV)
+
+### Descripción
+Diseño, implementación y explotación de un Cubo de Datos (OLAP) utilizando la suite Pentaho Schema Workbench como herramienta de Business Intelligence y Neon (PostgreSQL Serverless) como sistema gestor de base de datos en la nube.
+
+Diseño, implementación y explotación de un Cubo de Datos (OLAP) utilizando tecnologías de Microsoft para el análisis multidimensional de información de ventas.
+
+### Tecnologías usadas
+
+**PENTAHO**
+
+* PostgreSQL 15+ (Neon) 
+* Pentaho Schema Workbench 
+* Pentaho BI Server 
+* JDBC Driver PostgreSQL (42.x.x): Es necesario para conectar la base que está en la nube con nuestro sistema local 
+* MDX 
+* SQL estándar
+
+**SQLSRV**
+
+* Base de Datos Relacional: SQL Server 2019 Developer Edition
+* Modelo de Datos: Data Warehouse (Esquema de Estrella)
+* Motor OLAP: SQL Server Analysis Services (SSAS)
+* Modo de SSAS: Multidimensional
+* Diseño del Cubo: Visual Studio 2019 Community
+* Interfaz de Consulta: SQL Server Management Studio (SSMS)
+* Lenguaje de Consulta: MDX (Multidimensional Expressions)
+
+### Interfaz de usuario PENTAHO
+
+<img width="1365" height="767" alt="Captura de pantalla 2026-01-12 153356" src="https://github.com/user-attachments/assets/df33aeea-3d11-4686-8f65-393f170d7b29" />
+
+<img width="1365" height="767" alt="Captura de pantalla 2026-01-12 153415" src="https://github.com/user-attachments/assets/daec5a68-79ba-404a-a3c4-dacbb0c3510e" />
+
+### Interfaz de usuario SQLSRV
+
+<img width="1365" height="759" alt="Captura de pantalla 2026-01-12 153537" src="https://github.com/user-attachments/assets/b2ee19c6-e9c4-4730-82d3-36e22c5ad3fd" />
+
+<img width="1365" height="767" alt="Captura de pantalla 2026-01-12 153554" src="https://github.com/user-attachments/assets/0c953b4f-6805-4b82-a5d7-2681ed2fa919" />
+
+
+### Enlaces
+* **Código Fuente PENTAHO:** [Código fuente del proyecto](https://github.com/ZkDrxzyy/Cubo_de_Datos_PF)
+* **Código Fuente SQLSRV:** [Código fuente del proyecto](https://github.com/ZkDrxzyy/Cubo_de_Datos_SQLSRV)
