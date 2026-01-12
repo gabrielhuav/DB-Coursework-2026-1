@@ -1339,3 +1339,34 @@ HechoVentasDetalle (centro del cubo)
 **Credenciales Docker:**
 MySQL: root/rootpass
 phpMyAdmin: localhost:8080
+
+---
+# Proyecto 22
+
+## Proyecto: Sistema de Gestión de Reservas de un Hotel
+
+---
+
+## Descripción
+Sistema web integral para la gestión de reservas de hotel, administración de habitaciones y solicitud de servicios
+
+### Tecnologías usadas
+* **Backend:** Python + Flask con SQLAlchemy (ORM)
+* **Base de Datos:** PostgreSQL
+* **Frontend:** HTML con Jinja2, CSS (nativo) y JavaScript
+
+### Interfaz de usuario
+
+<p align="center">
+  <img src="https://github.com/Gonzalo-721/Proyecto/raw/main/static/img/dashboard_cliente.png" width="45%" />
+  <img src="https://github.com/Gonzalo-721/Proyecto/raw/main/static/img/detalles_reserva.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/Gonzalo-721/Proyecto/raw/main/static/img/dashboard_empleado.png" width="45%" />
+  <img src="https://github.com/Gonzalo-721/Proyecto/raw/main/static/img/ver_habitaciones.png" width="45%" />
+</p>
+
+### Enlaces
+* **Código Fuente:** [Código fuente del proyecto](https://github.com/Gonzalo-721/Proyecto)
+* **Demo en Vivo:** [Demo de la página](https://gonzalo-721.github.io/Pagina-demo/)
