@@ -1249,3 +1249,84 @@ Plataforma administrativa integral para el Club de Tiro con Arco del IPN, diseñ
 * **Frontend:** Bootstrap 5 e identidad visual institucional IPN.
 * **Visualización:** Chart.js para el despliegue dinámico de métricas del DWH.
 * **Despliegue:** Render (App dinámica) y GitHub Pages (Demo estática en carpeta `/docs`).
+
+
+## Proyecto 22: Pollitos Pío – Cubo OLAP Data Warehouse
+
+Sistema OLAP para análisis multidimensional de ventas de rosticera Pollitos Pío. Transforma datos transaccionales **OLTP** en **esquema estrella** con cubo de datos que permite análisis ágil por tiempo, producto, sucursal, cliente y método de pago.
+
+---
+
+## Tecnologías
+
+- **Data Warehouse:** MySQL 8.0 (esquema estrella)
+- **ETL:** Pentaho Data Integration (Kettle)
+- **OLAP:** Pentaho Schema Workbench
+- **Origen OLTP:** MySQL 8.0 + PHP 7.4 (InfinityFree)
+- **Despliegue:** Docker Compose (MySQL + phpMyAdmin)
+- **Consultas:** SQL OLAP (slice, dice, drill-down)
+
+---
+
+## Características Principales
+
+- Análisis de ventas por **año/mes/día/turno** (jerarquía temporal)
+- Comparación **sucursales/ciudades** vs **métodos de pago** (efectivo/tarjeta)
+- Segmentación **clientes particulares vs empresariales**
+- **Medidas agregables:** cantidad, importelinea (∑ventas por línea)
+- Operaciones OLAP: **slice/dice/drill-up/drill-down/pivot**
+- Desnormalización controlada para consultas 10x más rápidas que OLTP
+
+---
+
+## Arquitectura del Sistema
+
+El cubo está basado en **esquema estrella** con granularidad de **línea de venta**.
+
+### Tabla de Hechos (Núcleo OLAP)
+HechoVentasDetalle (centro del cubo)
+├── idhecho (PK)
+├── idtiempo → DimTiempo (cuándo)
+├── idproducto → DimProducto (qué)
+├── idsucursal → DimSucursal (dónde)
+├── idcliente → DimCliente (quién)
+├── idpago → DimPago (cómo)
+├── cantidad (medida)
+├── importalinea (medida: cantidad × precio)
+└── preciounitario
+
+### Dimensiones (Ejes de Análisis)
+- **DimTiempo** (jerarquía: año→mes→día→turno mañana/tarde/noche)
+- **DimProducto** (categoría→producto: Pollo/Guarniciones/Bebidas)
+- **DimSucursal** (sucursal→ciudad→colonia)
+- **DimCliente** (particular/empresarial→nombre)
+- **DimPago** (efectivo/tarjeta/transferencia)
+
+**PostgreSQL/MySQL** optimizado para agregaciones masivas con índices en claves de dimensiones.
+
+---
+
+## Capturas del Proyecto
+<img width="589" height="297" alt="esquemaestrella" src="https://github.com/user-attachments/assets/9b6e6d44-ae52-478c-a70e-3ff7c66621ca" />
+<img width="579" height="834" alt="dimensionesdelcubo" src="https://github.com/user-attachments/assets/5c912dd1-6588-4a5c-8e22-d0e553a1888f" />
+<img width="507" height="450" alt="CONSULTA" src="https://github.com/user-attachments/assets/fd1510ca-6203-4944-ab53-37aaa9dd5f84" />
+
+
+
+
+---
+
+## 🔗 Enlaces
+
+- **Repositorio Cubo OLAP:**  
+ 📂 [cubo-de-datos](https://github.com/camila-24/cubo-de-datos)
+
+- **Demo OLTP Original:**  
+  [https://practicabase2005.infinityfreeapp.com/](https://practicabase2005.infinityfreeapp.com/)
+
+- **Docker Data Warehouse Local:**  
+  [docker-compose.yml](docker-compose.yml) → `localhost:3306` / `localhost:8080` (phpMyAdmin)
+
+**Credenciales Docker:**
+MySQL: root/rootpass
+phpMyAdmin: localhost:8080
