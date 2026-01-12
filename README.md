@@ -1221,10 +1221,17 @@ Plataforma administrativa integral para el Club de Tiro con Arco del IPN, diseñ
 ---
 
 ### 📸 Capturas de Pantalla
-[Dashboard de Analítica Avanzada (DWH)](https://github.com/fafamarquez/TIROIPN/blob/main/app/static/img/stats.png)
-[Gestión de Miembros y Atletas con validación de CURP](https://github.com/fafamarquez/TIROIPN/blob/main/app/static/img/atletas.jpg)
-[Control de Inventario y Equipo Deportivo](https://github.com/fafamarquez/TIROIPN/blob/main/app/static/img/login.jpg)
-[Administración de Clases y Niveles Institucionales](https://github.com/fafamarquez/TIROIPN/blob/main/app/static/img/menu.jpg)
+### Dashboard de Analítica Avanzada (DWH)
+![Dashboard](https://raw.githubusercontent.com/fafamarquez/TIROIPN/main/app/static/img/stats.png)
+
+### Gestión de Miembros y Atletas con validación de CURP
+![Atletas](https://raw.githubusercontent.com/fafamarquez/TIROIPN/main/app/static/img/atletas.png)
+
+### Control de Inventario y Equipo Deportivo
+![Inventario](https://raw.githubusercontent.com/fafamarquez/TIROIPN/main/app/static/img/login.png)
+
+### Administración de Clases y Niveles Institucionales
+![Clases](https://raw.githubusercontent.com/fafamarquez/TIROIPN/main/app/static/img/menu.png)
 
 ---
 
