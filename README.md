@@ -1369,3 +1369,124 @@ Sistema web integral para la gestión de reservas de hotel, administración de h
 ### Enlaces
 * **Código Fuente:** [Código fuente del proyecto](https://github.com/Gonzalo-721/Proyecto)
 * **Demo en Vivo:** [Demo de la página](https://gonzalo-721.github.io/Pagina-demo/)
+
+---
+
+# Proyecto 23: Sistema de Gestión para Videojuego Medieval con Business Intelligence
+
+## 📋 Descripción del Proyecto
+
+Plataforma integral de análisis y gestión para videojuegos que combina un **sistema transaccional (OLTP)** construido con Flask y PostgreSQL, un **Data Warehouse dimensional (OLAP)** con esquema estrella optimizado, y un **Cubo OLAP funcional** implementado mediante dos tecnologías distintas: **Mondrian OLAP (Open Source)** para entornos cloud y **SQL Server Analysis Services (Microsoft)** para análisis empresarial. El sistema permite realizar análisis multidimensional de métricas de juego (XP, Oro, Duración de eventos) mediante **consultas MDX profesionales**, con visualización en dashboards web interactivos construidos en Flask y tablas dinámicas de Excel conectadas directamente a SSAS.
+
+**Stack Tecnológico:** Flask 3.0, PostgreSQL 15+ (Supabase), SQLAlchemy ORM, Mondrian OLAP Engine, SQL Server 2025 Analysis Services, Docker, Render.com, Schema Workbench, Visual Studio 2022, Pentaho BI Suite
+
+---
+
+## 🖼️ Capturas de Pantalla
+
+### Lobby
+<img width="1919" height="861" alt="Captura de pantalla 2026-01-12 090134" src="https://github.com/user-attachments/assets/524b2d9f-09d4-4bab-b179-09341d29de3f" />
+
+
+### Sistema de Inventario Multi-Categoría
+<img width="1919" height="860" alt="Captura de pantalla 2026-01-12 090202" src="https://github.com/user-attachments/assets/79ad3d4f-9f7c-48fe-bf41-d336be091af2" />
+
+### Sistema de selección de personajes
+<img width="1919" height="863" alt="Captura de pantalla 2026-01-12 090340" src="https://github.com/user-attachments/assets/83ef7d27-d601-4f9c-ae24-b8ebaef6d262" />
+
+### Cubo OLAP
+<img width="1920" height="1020" alt="Captura de pantalla 2026-01-12 090637" src="https://github.com/user-attachments/assets/662b74ac-3706-403a-9022-d603dcd74d26" />
+<img width="1920" height="1020" alt="Captura de pantalla 2026-01-12 090800" src="https://github.com/user-attachments/assets/7837b11c-eabe-4b66-8c32-4e37f0e593d7" />
+
+---
+
+## 🔗 Enlaces del Proyecto
+
+### 📦 Repositorio de Código Fuente
+**GitHub:** [https://github.com/IISGRI/Proyecto-BD](https://github.com/IISGRI/Proyecto-BD)
+
+### 🌐 Aplicación Web en Producción
+**Render.com:** [https://videojuegobd.onrender.com](https://videojuegobd.onrender.com)
+
+### 📊 Versión Estática Funcional (GitHub Pages)
+**GitHub Pages:** [https://iisgri.github.io/Proyecto-BD/](https://iisgri.github.io/Proyecto-BD/)
+
+### 🎥 Video Tutorial Completo
+**YouTube:** [https://youtu.be/tYC2RmAvDZE](https://youtu.be/tYC2RmAvDZE)
+
+*Contenido del video:*
+- 🔧 Configuración paso a paso de Mondrian Schema Workbench
+- 🔧 Implementación del Cubo SSAS en Visual Studio 2022
+- 📊 Ejecución de consultas MDX en ambos motores OLAP
+- 📈 Creación de dashboard en Excel
+
+---
+
+## 🚀 Características Principales
+
+### Sistema Transaccional (OLTP)
+- ✅ Autenticación segura con Werkzeug (pbkdf2/scrypt)
+- ✅ CRUD completo de personajes, mascotas e inventario
+- ✅ Sistema de gremios con relaciones N:M
+- ✅ Logros desbloqueables
+- ✅ API REST para integraciones
+
+### Data Warehouse (OLAP)
+- ✅ Esquema estrella con 4 dimensiones (Tiempo, Jugador, Personaje, Evento)
+- ✅ Tabla de hechos con 5 medidas agregables
+- ✅ 10,000+ registros de partidas simuladas
+
+### Cubo OLAP Dual
+- ✅ **Mondrian (Open Source):** Schema XML + MDX en Schema Workbench
+- ✅ **SSAS (Microsoft):** Proyecto Visual Studio + Excel nativo
+- ✅ Operaciones OLAP: Roll-Up, Drill-Down, Slice, Dice
+- ✅ Consultas MDX validadas en ambos motores
+
+---
+
+## 📊 Operaciones OLAP Implementadas
+
+### 1. 🔼 Roll-Up (Agregación Temporal)
+**Análisis de XP total ganada por año:**
+```mdx
+SELECT {[Measures].[XP Ganada]} ON COLUMNS,
+       {[Tiempo].[Año].Members} ON ROWS
+FROM [CuboProgresoJugador]
+```
+
+### 2. 🔽 Drill-Down (Desglose Mensual)
+**Profundización en meses del año 2025:**
+```mdx
+SELECT {[Measures].[XP Ganada]} ON COLUMNS,
+       {[Tiempo].[Año].[2025].Children} ON ROWS
+FROM [CuboProgresoJugador]
+```
+
+### 3. 🔪 Slice (Corte por Año)
+**Rendimiento de jugadores en 2024:**
+```mdx
+SELECT {[Measures].[XP Ganada]} ON COLUMNS,
+       {[Jugador].[Usuario].Members} ON ROWS
+FROM [CuboProgresoJugador]
+WHERE ([Tiempo].[Año].[2024])
+```
+
+### 4. 🎲 Dice (Filtrado Multidimensional)
+**Análisis de Guerreros en eventos de alta dificultad:**
+```mdx
+SELECT {[Measures].[Oro Ganado]} ON COLUMNS,
+       {[Personaje].[Clase].[Guerrero]} ON ROWS
+FROM [CuboProgresoJugador]
+WHERE ([Evento].[Dificultad].[Alta])
+```
+
+---
+
+## 📖 Documentación Completa
+
+Para instrucciones detalladas de configuración de ambos métodos OLAP (Mondrian y SSAS), consultar:
+- **README Principal:** [Archivo completo en el repositorio](https://github.com/IISGRI/Proyecto-BD/blob/main/README.md)
+- **Guía Mondrian:** Sección "MÉTODO 1: Implementación con PostgreSQL + Mondrian OLAP"
+- **Guía SSAS:** Sección "MÉTODO 2: Implementación con SQL Server + SSAS"
+
+---
