@@ -1626,3 +1626,107 @@ El núcleo de este proyecto es una base de datos normalizada que resuelve la ges
 
 ---
 *Proyecto desarrollado para la materia de Base de Datos.*
+
+#PRACTICA 27 
+# 🏎️ Sistema de Gestión para Equipo de F1 - Scuderia Alpha Racing
+
+## 📌 Descripción del Proyecto
+**Proyecto #24** - Sistema integral de gestión para equipo de Fórmula 1 que permite administrar pilotos, autos, circuitos, carreras y resultados en tiempo real. Plataforma web completa con autenticación, CRUD avanzado y reporting.
+
+## 🎯 ¿Para qué sirve esta aplicación?
+Este sistema está diseñado para **equipos profesionales de Fórmula 1** y permite:
+
+- ✅ **Gestión completa de pilotos**: Contratos, licencias FIA
+- ✅ **Control de flota de autos**: Mantenimiento, especificaciones técnicas, estado
+- ✅ **Administración de carreras**: Calendario, circuitos, condiciones climáticas
+- ✅ **Seguimiento de resultados**: Puntos, clasificaciones, estadísticas
+- ✅ **Mantenimiento predictivo**: Programación de servicios técnicos
+- ✅ **Reporting financiero**: Presupuestos, costos, análisis de rendimiento
+
+## 🚀 Características Principales
+
+### 🔐 **Sistema de Seguridad**
+- Autenticación de usuarios con roles (Piloto, Mecánico, Administrador)
+- Protección de rutas y sesiones
+- Encriptación de credenciales
+
+### 📊 **Módulos del Sistema**
+1. **Gestión de Pilotos**
+   - Perfiles completos con historial
+   - Contratos y obligaciones
+   - Licencias FIA y certificaciones
+
+2. **Control de Autos**
+   - Especificaciones técnicas detalladas
+   - Historial de mantenimiento
+   - Estado actual y disponibilidad
+
+3. **Circuitos y Carreras**
+   - Base de datos de circuitos internacionales
+   - Calendario de temporada
+   - Condiciones climáticas históricas
+
+4. **Resultados y Estadísticas**
+   - Sistema de puntos FIA
+   - Comparativas entre pilotos
+   - Análisis de rendimiento
+
+5. **Mantenimiento**
+   - Programación de servicios
+   - Control de inventario
+   - Costos y presupuestos
+
+### 📱 **Interfaz de Usuario**
+- Diseño 100% responsive (mobile-first)
+- Dashboard interactivo con gráficos
+- Tablas dinámicas con filtros avanzados
+- Formularios con validación en tiempo real
+- Modo oscuro profesional
+
+## 🛠️ **Tecnologías Utilizadas**
+
+### **Frontend (Cliente)**
+| Tecnología | Uso | Versión |
+|------------|-----|---------|
+| **HTML5** | Estructura semántica | HTML5 |
+| **CSS3** | Estilos y diseño responsive |
+| **JavaScript** | Lógica de aplicación | 
+| **LocalStorage** | Persistencia de datos | API nativa |
+
+### **Backend (Servidor) - Versión Original**
+| Tecnología | Uso | Versión |
+|------------|-----|---------|
+| **PHP** | Lógica del servidor | 8.x |
+| **MySQL** | Base de datos | 8.0+ |
+| **PDO** | Conexión a BD | PHP PDO |
+| **JSON** | Comunicación API | API REST |
+
+
+sistema-f1/
+│
+├── login.html                 # Página de autenticación
+├── index.html                 # Dashboard principal
+├── api.php                    # configuracion
+├── login.php                  # coingfiguarcion del logion
+├── generar_hashes.php         # sistema de segurirdad login                
+
+### **Imagenes del proyecto**
+
+<img width="321" height="366" alt="image" src="https://github.com/user-attachments/assets/61231b07-eb4e-47f2-8ec2-352a40c1ef4d" />
+<img width="1251" height="848" alt="image" src="https://github.com/user-attachments/assets/9fbd0b8f-5c48-4aa2-a7e9-909e54333f70" />
+<img width="1191" height="866" alt="image" src="https://github.com/user-attachments/assets/7b98cc26-e9e6-4b64-9f8f-0f6f1318d421" />
+<img width="1200" height="664" alt="image" src="https://github.com/user-attachments/assets/0cc42cb3-8439-491c-9c9b-aa96dc99343f" />
+<img width="1234" height="921" alt="image" src="https://github.com/user-attachments/assets/cd4e3974-ce28-43d7-adce-e0206e5eb511" />
+
+### **ENLACES**
+### 📦 Repositorio de Código Fuente
+**GitHub:** [https://github.com/J-Arturo-HDC/GestionF1](https://github.com/J-Arturo-HDC/GestionF1)
+
+### 🌐 Aplicación Web en Producción
+**infinityfree.com:** [https://f1racing.infinityfreeapp.com/](https://f1racing.infinityfreeapp.com/)
+
+### 📊 Versión Estática Funcional (GitHub Pages)
+**GitHub Pages:** [https://j-arturo-hdc.github.io/GestionF1/](https://j-arturo-hdc.github.io/GestionF1/)
+
+*Proyecto desarrollado para la materia de Base de Datos.*
+
