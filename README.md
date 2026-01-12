@@ -1514,6 +1514,7 @@ Sistema web integral para la administración de una cafetería, gestionando vent
 ### 🔗 Enlaces
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/jaird1234/cafeteria-flask-app)
 * **Demo en Vivo:** [Cafetería Web App](https://cafeteria-app-gb3r.onrender.com)
+* **Demo Estatica con Github Pages [(https://jaird1234.github.io/cafeteria-flask-app/index.html)
 
 ## 📖 Documentación Completa
 
