@@ -710,7 +710,7 @@ https://github.com/ErickEvil16/PaginaBD3CV5/tree/main
 ### Demo en vivo
 https://rebrota.alwaysdata.net/
 
-## Proyecto 14: Sistema de Gestión de Ventas e Inventario (Refactorizado)
+## Proyecto 14: Sistema de Gestión de Ventas e Inventario
 
 Este proyecto es una aplicación web completa para la administración de un comercio, que incluye gestión de inventario, registro de ventas, cálculo de comisiones y nómina de empleados.
 
@@ -720,6 +720,12 @@ El sistema ha pasado por un proceso de **modernización total**, migrando de PHP
 
 Puedes acceder al proyecto funcional aquí:
 👉 **[http://www.proyectobdluis.rf.gd/](http://www.proyectobdluis.rf.gd/)**
+
+## Vista en GitHub Pages:
+👉 **[https://caceresvalenciagiovanni-web.github.io/proyecto-ventas-frontend/](https://caceresvalenciagiovanni-web.github.io/proyecto-ventas-frontend/)**
+
+## Repositorio de GitHub:
+👉 **[https://github.com/caceresvalenciagiovanni-web/Interfaces-web](https://github.com/caceresvalenciagiovanni-web/Interfaces-web)**
 
 > **Credenciales de prueba:**
 > * **Usuario: admin o vendedor1
@@ -764,7 +770,6 @@ La base de datos relacional está diseñada para mantener la integridad referenc
 ![](tienda2.png)
 ![](tienda3.png)
 ![](tienda4.png)
-*(Nota: Debes subir una imagen llamada `imagen_diagrama.png` o similar a tu repo y cambiar esta ruta)*
 
 **Entidades Principales:**
 * **Venta & DetalleVenta:** Cabecera y renglones de cada transacción.
