@@ -747,25 +747,33 @@ Este proyecto destaca por la transición de código heredado a estándares moder
 
 La base de datos relacional está diseñada para mantener la integridad referencial entre las operaciones comerciales.
 <div align="center">
-
 <table>
   <tr>
     <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/imagen_diagrama.jpeg" alt="inicio" width="500"/></td>
     <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/imagen_diagrama1.jpeg" alt="principal" width="500"/></td>
   </tr>
+</table>
+</div>
+<div align="center">
+<table>
 	<tr>
-    
-  </tr>
-  <tr>
     <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/imagen_EER.jpeg" alt="socios" width="500"/></td>
+  </tr>
+</table>
+</div>
+
+## Capturas de Pantalla
+<div align="center">
+<table>
+	<tr>
+    <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/tienda (1).png" alt="socios" width="500"/></td>
+	<td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/tienda2 (1).png" alt="socios" width="500"/></td>
+	<td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/tienda3.png" alt="socios" width="500"/></td>
+	<td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/tienda4.png" alt="socios" width="500"/></td>
   </tr>
 </table>
 
 </div>
-
-
-
-## Capturas de Pantalla
 
 ---
 ## Proyecto 15: Sistema de Gestión de la Liga de Fútbol 
