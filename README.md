@@ -738,65 +738,20 @@ Puedes acceder al proyecto funcional aquí:
 Este proyecto destaca por la transición de código heredado a estándares modernos de desarrollo PHP:
 
 ### 1. Arquitectura MVC (Modelo-Vista-Controlador)
-Se separó la lógica de negocio de la interfaz de usuario para mejorar la mantenibilidad y escalabilidad.
-- **Modelos (`/models`):** Representación de datos usando Eloquent.
-- **Controladores (`/controllers`):** Lógica de negocio (Ventas, Productos) centralizada.
-- **Vistas (`/admin`, `/vendedor`):** Interfaz limpia separada de las consultas SQL.
-
 ### 2. Implementación de Eloquent ORM
-Se eliminaron las consultas SQL manuales (`SELECT`, `INSERT`, `JOIN`) y se reemplazaron por objetos PHP, permitiendo:
-- **Relaciones limpias:** Uso de `hasMany` y `belongsTo` para conectar Productos, Proveedores y Ventas sin escribir `JOINs` complejos.
-- **Seguridad:** Protección automática contra Inyección SQL.
-- **Transacciones de Base de Datos:** Uso de `DB::beginTransaction()` para asegurar la integridad de datos críticos (Stock + Venta + Salario + Caja) en una sola operación atómica.
-
 ### 3. Gestión de Dependencias
-- Uso de **Composer** para la gestión de librerías.
-- Carga automática de clases (Autoloading PSR-4), eliminando los `include` manuales repetitivos.
-
 ### 4. Seguridad
-- Encriptación de contraseñas utilizando `password_hash` y verificación con `password_verify`.
-- Validación de sesiones y roles (Admin vs. Vendedor).
-
 ---
 
 ## 📊 Diagrama Entidad-Relación (ER)
 
 La base de datos relacional está diseñada para mantener la integridad referencial entre las operaciones comerciales.
 
-<img width="913" height="604" alt="Diagrama Entidad Relación" src="https://private-user-images.githubusercontent.com/247551279/534845789-c3f4b401-72c6-4b53-a605-f477a1d10d20.jpeg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjgyNjMyMjYsIm5iZiI6MTc2ODI2MjkyNiwicGF0aCI6Ii8yNDc1NTEyNzkvNTM0ODQ1Nzg5LWMzZjRiNDAxLTcyYzYtNGI1My1hNjA1LWY0NzdhMWQxMGQyMC5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDExMyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjAxMTNUMDAwODQ2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjExMTdlMjNmZmE4MzU1OTEzMzM5MjM0Mzg0YzExYTk1ZWM0N2NhODAxNDljZTIxMjI2ZThhMjlhMzhlMjAwMSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.9BIGtt900M77OTXKFEWKPPx06KkYV9ENAWUXaOv-1Sk"/>
 
-<img width="913" height="604" alt="Diagrama Entidad Relación" src="https://private-user-images.githubusercontent.com/247551279/534847658-e5425b74-479a-4c8a-bd23-36f524d3ef86.jpeg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjgyNjM2NTYsIm5iZiI6MTc2ODI2MzM1NiwicGF0aCI6Ii8yNDc1NTEyNzkvNTM0ODQ3NjU4LWU1NDI1Yjc0LTQ3OWEtNGM4YS1iZDIzLTM2ZjUyNGQzZWY4Ni5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDExMyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjAxMTNUMDAxNTU2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9Mjc3ZjNlMTI2MWJlYWUyNzBiOWYzOThiOGRjNTExY2M1MWQ1MDRkYjcwZDU1MjBhZDA0MmNlMmVjNjE0ZGIzYSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.tVpXVPLRcnCHG6DjiAbCTx_AWFXfe8jEFmbuzImoW78"/>
-<img width="913" height="604" alt="Diagrama Entidad Relación" src="https://private-user-images.githubusercontent.com/247551279/534848181-5b6e35bd-6655-4adc-9936-81d3d4c6864b.jpeg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjgyNjM4NTEsIm5iZiI6MTc2ODI2MzU1MSwicGF0aCI6Ii8yNDc1NTEyNzkvNTM0ODQ4MTgxLTViNmUzNWJkLTY2NTUtNGFkYy05OTM2LTgxZDNkNGM2ODY0Yi5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDExMyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjAxMTNUMDAxOTExWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NzM3Njk1MGYxMDBlYjJiY2MzMGVhYWZmZDM2NmU4NjNkNzFmODljMDIyMTVjZjI3ODI1MGU2MGYxNjc1YTlmMCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.RYy1tFkzlH_uEWn4vkkMNWXAMqDcqJ9ze4hjHOBwCnk"/>
 
 ## Capturas de Pantalla
-<img width="913" height="604" alt="Diagrama Entidad Relación" src="https://private-user-images.githubusercontent.com/247551279/534848636-55761241-bb3b-4961-8da0-42173d23d55b.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjgyNjM5NzIsIm5iZiI6MTc2ODI2MzY3MiwicGF0aCI6Ii8yNDc1NTEyNzkvNTM0ODQ4NjM2LTU1NzYxMjQxLWJiM2ItNDk2MS04ZGEwLTQyMTczZDIzZDU1Yi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExM1QwMDIxMTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05MTI2YWZiMDNiMTZlMjE5MjgwZDcwYzM2ZmFlMTRjMDNiMjY3OWY0YWY3NWI5NzFlMjc1ODUwYzg2ZDJkMjFiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.jxrN-tJxjF68JaMWknCahx_RNNmNscDioRDvkJ0-NI0"/>
-<img width="913" height="604" alt="Diagrama Entidad Relación" src="https://private-user-images.githubusercontent.com/247551279/534848747-5812557d-1f09-45a9-9262-d481eb2223c8.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjgyNjQwMTAsIm5iZiI6MTc2ODI2MzcxMCwicGF0aCI6Ii8yNDc1NTEyNzkvNTM0ODQ4NzQ3LTU4MTI1NTdkLTFmMDktNDVhOS05MjYyLWQ0ODFlYjIyMjNjOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExM1QwMDIxNTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zZjQ0NzI4ZjNiYTIxOTQ5YjUzZTY2YTY3NWUwNTY2MjJmMTk1ZWZkNzBmOGY1YTAwZTQzNTRkYmM5MmQ2NjZhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.S-Q5vOuV1wmKEsBOs6gAY6d4VKq3IjsEZtEABziiElA"/>
-<img width="913" height="604" alt="Diagrama Entidad Relación" src="https://private-user-images.githubusercontent.com/247551279/534848861-34d1c3db-dcfe-428f-941c-b4d683efd45e.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjgyNjQwNTIsIm5iZiI6MTc2ODI2Mzc1MiwicGF0aCI6Ii8yNDc1NTEyNzkvNTM0ODQ4ODYxLTM0ZDFjM2RiLWRjZmUtNDI4Zi05NDFjLWI0ZDY4M2VmZDQ1ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExM1QwMDIyMzJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MmNhOGJmZTIwNWU3MTZlNWJiNWJlNDY2YmY3ZTVmMjdiNjViMTAwMTRhMzlkYWI3ODI4ZDRjNDNhY2UxMzUzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.F_rQ0JGSSa4Ih30TkofrD15e4pXeOHh5STigi3hdfvY"/>
-<img width="913" height="604" alt="Diagrama Entidad Relación" src="https://private-user-images.githubusercontent.com/247551279/534848981-0e489e19-629b-4f8e-8c3e-7f60846d7569.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjgyNjQwOTQsIm5iZiI6MTc2ODI2Mzc5NCwicGF0aCI6Ii8yNDc1NTEyNzkvNTM0ODQ4OTgxLTBlNDg5ZTE5LTYyOWItNGY4ZS04YzNlLTdmNjA4NDZkNzU2OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExM1QwMDIzMTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00YjUxM2VjZjE0M2Q5ZmE2MTkwNmYyYmFjZTBhNjkwYTIxOTJiMGMyYTc4YzAwNjA1ZGQzMmZkNmVlMjY0NzQ0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.erUsNbhC0xYG31i5nbtfz_lmqXjEWZtd8oUz5TYj1lU"/>
-
-
-**Entidades Principales:**
-* **Venta & DetalleVenta:** Cabecera y renglones de cada transacción.
-* **Producto:** Inventario, costos y precios.
-* **Persona/Usuario:** Gestión de identidad y roles.
-* **RegistroSalario:** Cálculo automático de comisiones basado en ventas diarias.
-* **Proveedor & Cliente:** Entidades externas relacionadas.
 
 ---
-
-## 📂 Estructura del Proyecto
-
-```text
-/
-├── admin/          # Panel de Control (Vistas del Administrador)
-├── vendedor/       # Panel de Ventas (Vistas del Vendedor)
-├── config/         # Configuración de base de datos (Eloquent)
-├── controllers/    # Lógica de Negocio (ProductoController, VentaController)
-├── models/         # Modelos de Datos (Producto, Venta, User...)
-├── vendor/         # Dependencias de Composer
-├── index.php       # Login y Punto de Entrada
-└── style.css       # Estilos Globales
-```
 ## Proyecto 15: Sistema de Gestión de la Liga de Fútbol 
 Sistema robusto para la administración de una Liga de Fútbol Profesional, diseñado para soportar operaciones transaccionales complejas y simulación de grandes volúmenes de datos.
 
