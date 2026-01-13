@@ -1885,3 +1885,108 @@ GitHub Pages: https://abrilirba.github.io/Sitio-estatico-recomendaciones-de-conj
 * Backend / DB: PostgreSQL (Supabase)
 * ORM: Drizzle ORM
 * Auth & Seguridad: Supabase Auth + Row Level Security (RLS)
+* 
+
+# 🏋️‍♂️ Sistema de Gestión de Información para Gimnasio
+
+Aplicación web desarrollada con **Python**, **MySQL** y **HTML/CSS** para la administración básica de usuarios, socios y membresías dentro de un gimnasio.
+
+Incluye autenticación, dashboard, vistas estáticas para GitHub Pages y API funcional para despliegue en servidor.
+
+---
+
+## 🚀 Tecnologías utilizadas
+
+- **Backend:** Python
+- **Base de Datos:** MySQL
+- **Frontend:** HTML5 y CSS3 (Grid Layout)
+
+---
+
+## 📌 Características principales
+
+- Inicio de sesión con validación
+- Dashboard principal después de autenticarse
+- Gestión de socios
+- Gestión de membresías
+- Estructura modular lista para futuras expansiones
+- Versión estática para demostración en GitHub Pages
+- Deploy funcional en Render
+
+---
+
+## 📂 Estructura del proyecto
+```
+📂 gym-api-python/ <-- Directorio Raíz
+│
+├── 📄 app.py <-- Controlador Principal (Entry Point)
+├── 📄 requirements.txt <-- Dependencias y Librerías del Entorno
+├── 📄 README.md <-- Documentación General del Proyecto
+├── 📄 .gitignore <-- Archivos excluidos del control de versiones
+│
+├── 📂 static/ <-- Recursos Estáticos (Producción)
+│ └── 📂 css/
+│ └── 📄 estilo.css <-- Hoja de estilos global
+│
+├── 📂 templates/ <-- Vistas Dinámicas (Jinja2)
+│ ├── 📄 index.html <-- Dashboard principal
+│ ├── 📄 socios.html <-- CRUD de Socios
+│ └── 📄 membresias.html <-- CRUD de Membresías
+│
+└── 📂 docs/ <-- Despliegue Estático (GitHub Pages)
+├── 📄 index.html <-- Demo estática del Dashboard
+├── 📄 socios.html <-- Demo estática de Socios
+├── 📄 membresias.html <-- Demo estática de Membresías
+└── 📂 css/
+└── 📄 estilo.css
+
+```
+
+---
+
+## 📊 Diagramas del Sistema
+
+### 🔷 Diagrama EER
+<img width="1028" height="683" alt="Diagrama_EER" src="https://github.com/user-attachments/assets/dd6fced3-4fa2-45eb-aa58-46bd1262989d" />
+
+
+---
+
+### 🔶 Diagrama Relacional
+<img width="946" height="586" alt="Diagrama_Relacional" src="https://github.com/user-attachments/assets/370ad702-dc75-4bd0-a787-5f4170a0050f" />
+
+
+---
+
+## 📸 Capturas de Pantalla
+
+### 🖥️ Inicio de Sesión
+<img width="736" height="333" alt="Inicio" src="https://github.com/user-attachments/assets/4f039854-9031-4b35-b7f4-e73ca31e0a03" />
+
+
+---
+
+### 👥 Módulo de Socios
+<img width="736" height="334" alt="Socios" src="https://github.com/user-attachments/assets/d5e1693e-db88-4641-b35a-a17b00fef73d" />
+
+
+---
+
+### 🧾 Módulo de Membresías
+<img width="736" height="333" alt="Membresias" src="https://github.com/user-attachments/assets/3eacd4ca-f69a-437b-afd6-fcaad6a466c3" />
+
+
+---
+
+## 🌐 Enlaces Importantes
+
+🔹 **Código Fuente:**  
+https://github.com/davidcuellarbt-hue/gym-api-python  
+
+🔹 **Demo Estática (GitHub Pages):**  
+https://davidcuellarbt-hue.github.io/gym-api-python/  
+
+🔹 **Demo en Vivo (Render):**  
+https://gym-api-python.onrender.com  
+
+
