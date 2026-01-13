@@ -750,9 +750,9 @@ La base de datos relacional está diseñada para mantener la integridad referenc
 
 <table>
   <tr>
-    <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/tienda3.png" alt="inicio" width="400"/></td>
-    <td><img src="" alt="principal" width="400"/></td>
-    <td><img src="" alt="socios" width="400"/></td>
+    <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/imagen_diagrama.jpeg" alt="inicio" width="400"/></td>
+    <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/imagen_diagrama1.jpeg" alt="principal" width="400"/></td>
+    <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/imagen_EER.jpeg" alt="socios" width="400"/></td>
   </tr>
   <tr>
     <td><img src="" alt="clases" width="400"/></td>
