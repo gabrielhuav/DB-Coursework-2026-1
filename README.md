@@ -740,7 +740,7 @@ Este proyecto destaca por la transición de código heredado a estándares moder
 ### 1. Arquitectura MVC (Modelo-Vista-Controlador)
 ### 2. Implementación de Eloquent ORM
 ### 3. Gestión de Dependencias
-### 4. Seguridad
+### 4. Encriptación de Contrseñas (Hash)
 ---
 
 ## 📊 Diagrama Entidad-Relación (ER)
@@ -757,7 +757,7 @@ La base de datos relacional está diseñada para mantener la integridad referenc
 <div align="center">
 <table>
 	<tr>
-    <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/imagen_EER.jpeg" alt="socios" width="550"/></td>
+    <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/imagen_EER.jpeg" alt="socios" width="500"/></td>
   </tr>
 </table>
 </div>
