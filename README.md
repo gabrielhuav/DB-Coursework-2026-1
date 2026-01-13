@@ -770,7 +770,7 @@ La base de datos relacional está diseñada para mantener la integridad referenc
 ![](tienda2.png)
 ![](tienda3.png)
 ![](tienda4.png)
----<img width="913" height="604" alt="Diagrama Entidad Relación" src="https://github.com/caceresvalenciagiovanni-web/Interfaces-web/issues/1#issue-3806474344"/>
+---<img width="913" height="604" alt="Diagrama Entidad Relación" src="https://private-user-images.githubusercontent.com/247551279/534845789-c3f4b401-72c6-4b53-a605-f477a1d10d20.jpeg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjgyNjMyMjYsIm5iZiI6MTc2ODI2MjkyNiwicGF0aCI6Ii8yNDc1NTEyNzkvNTM0ODQ1Nzg5LWMzZjRiNDAxLTcyYzYtNGI1My1hNjA1LWY0NzdhMWQxMGQyMC5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDExMyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjAxMTNUMDAwODQ2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjExMTdlMjNmZmE4MzU1OTEzMzM5MjM0Mzg0YzExYTk1ZWM0N2NhODAxNDljZTIxMjI2ZThhMjlhMzhlMjAwMSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.9BIGtt900M77OTXKFEWKPPx06KkYV9ENAWUXaOv-1Sk"/>
 **Entidades Principales:**
 * **Venta & DetalleVenta:** Cabecera y renglones de cada transacción.
 * **Producto:** Inventario, costos y precios.
