@@ -2092,3 +2092,52 @@ o	Hosting: Render.
 •	Repositorio en GitHub: https://github.com/alecordeo/club-lectura-flask
 •	Aplicación Web: https://club-lectura.onrender.com/
 •	Versión de la App estática: https://ramavina31-creator.github.io/in-corde/
+
+### PROYECTO 29: SIMPLEFINANCE.
+
+**SimpleFinance** es una plataforma web para la gestión multiusuario de movimientos económicos. El proyecto destaca por implementar una **arquitectura de tres capas**, asegurando la separación de responsabilidades, la persistencia de datos en la nube y una clasificación dinámica de gastos para un control presupuestario riguroso.
+
+---
+
+## Enlaces del Proyecto
+
+* **Código Fuente:** [GitHub Repository](https://github.com/Emmanuel071104/proyecto-gastos)
+* **Demostración en Vivo (Render):** [SimpleFinance App](https://proyecto-gastos-nokh.onrender.com)
+* **Vista Previa Frontend (GitHub Pages):** [Static Demo](https://emmanuel071104.github.io/proyecto-gastos/)
+
+---
+
+## Características Principales
+
+* **Gestión Multiusuario:** Registro y acceso personalizado para el manejo de finanzas individuales.
+* **Arquitectura de 3 Capas:** Diseño robusto que separa la interfaz, la lógica de negocio y la persistencia.
+* **Clasificación Dinámica:** Herramientas para categorizar gastos y visualizar el comportamiento del presupuesto.
+* **Visualización de Datos:** Integración de gráficos interactivos para un análisis visual rápido.
+* **Persistencia en la Nube:** Almacenamiento seguro mediante PostgreSQL.
+
+---
+
+## Evidencias
+<img width="1918" height="970" alt="Evidencia_5" src="https://github.com/user-attachments/assets/f01dd96e-2cf7-401c-aa58-389ad7aff7d0" />
+<img width="1918" height="968" alt="Evidencia_4" src="https://github.com/user-attachments/assets/893dd8aa-40b5-4495-b079-f08230f77e4e" />
+<img width="1918" height="968" alt="Evidencia_3" src="https://github.com/user-attachments/assets/79ee371a-8b98-44a6-9d07-3cc54a35f5a8" />
+<img width="1918" height="968" alt="Evidencia_2" src="https://github.com/user-attachments/assets/96588346-da67-4dbb-bcc2-5bf1c9d168d1" />
+<img width="1917" height="967" alt="Evidencia_1" src="https://github.com/user-attachments/assets/aff0c2de-2f02-4f65-a980-e6932983a7b6" />
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+| Capa | Tecnología |
+| :--- | :--- |
+| **Backend** | Python 3 + Flask |
+| **Base de Datos** | PostgreSQL (Alojada en Render) |
+| **Interfaz (Frontend)** | HTML5, CSS3, Bootstrap 5 |
+| **Gráficos** | Chart.js |
+| **Despliegue** | Render |
+
+---
+
+## Usuarios de prueba
+* Usuario regular: Juan | juan123.
+* Usuario admin0: admin | admin123.
