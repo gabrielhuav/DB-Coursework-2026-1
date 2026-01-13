@@ -1778,7 +1778,7 @@ El sistema se apoya en una arquitectura moderna y segura:
 - **🚀 Web Oficial (Funcional):** [Ver Demo en Vercel](https://rodd-todd.vercel.app/)
 - **📄 Versión Estática (GitHub Pages):** [Ver Portada Estática](https://adrianguerrerozamora-beep.github.io/proyecto-base-de-datos/public/index.html)
 
--
+
 # 🌮 El Buen Taco
 
 Sistema integral para la gestión de pedidos y administración de un restaurante de tacos.
