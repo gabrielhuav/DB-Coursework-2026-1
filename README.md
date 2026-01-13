@@ -1778,65 +1778,97 @@ El sistema se apoya en una arquitectura moderna y segura:
 - **🚀 Web Oficial (Funcional):** [Ver Demo en Vercel](https://rodd-todd.vercel.app/)
 - **📄 Versión Estática (GitHub Pages):** [Ver Portada Estática](https://adrianguerrerozamora-beep.github.io/proyecto-base-de-datos/public/index.html)
 
-### Proyecto 2: El Buen Taco
+# 🌮 El Buen Taco
+
 Sistema integral para la gestión de pedidos y administración de un restaurante de tacos.
-### 🛠️ Tecnologías
 
-**Backend:** C# con .NET
-**Base de Datos:** PostgreSQL alojado en Supabase (Nube)
+---
 
+## 🛠️ Tecnologías
 
-### 🖼️ Previews
+- *Backend:* C# con .NET
+- *Base de Datos:* PostgreSQL alojado en Supabase (Nube)
+
+---
+
+## 🖼️ Vistas del Sistema
+
+### 🔐 Login
+
 <div align="center">
-  <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Login.png" alt="Vista de Login" width="800" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin: 10px;"/>
+  <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Login.png" alt="Vista de Login" width="800" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin: 20px 0;"/>
+</div>
+
+---
+
+### 👤 Vista Cliente
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Cliente1.jpeg" alt="Vista cliente - Menú" width="100%" style="border-radius: 8px;"/>
+      <p><strong>Menú de Productos</strong></p>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Cliente2.jpeg" alt="Vista cliente - Pedidos" width="100%" style="border-radius: 8px;"/>
+      <p><strong>Mis Pedidos</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Cliente3.jpeg" alt="Vista cliente - Carrito" width="100%" style="border-radius: 8px;"/>
+      <p><strong>Carrito de Compras</strong></p>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Cliente4.jpeg" alt="Vista cliente - Confirmación" width="100%" style="border-radius: 8px;"/>
+      <p><strong>Confirmación de Pedido</strong></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### ⚙️ Panel Administrativo
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Admin1.jpeg" alt="Panel administrativo - Dashboard" width="800" style="border-radius: 8px; margin: 20px 0;"/>
+  <p><strong>Dashboard Principal</strong></p>
 </div>
 
 <table>
   <tr>
-    <td width="50%">
-      <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Cliente1.jpeg" alt="Vista cliente - Menú" width="100%" style="border-radius: 8px;"/>
-    </td>
-    <td width="50%">
-      <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Cliente2.jpeg" alt="Vista cliente - Pedidos" width="100%" style="border-radius: 8px;"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Cliente3.jpeg" alt="Vista cliente - Carrito" width="100%" style="border-radius: 8px;"/>
-    </td>
-    <td width="50%">
-      <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Cliente4.jpeg" alt="Vista cliente - Confirmación" width="100%" style="border-radius: 8px;"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Admin1.jpeg" alt="Panel administrativo - Dashboard" width="800" style="border-radius: 8px;"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
+    <td width="50%" align="center">
       <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Admin2.jpeg" alt="Panel admin - Gestión productos" width="100%" style="border-radius: 8px;"/>
+      <p><strong>Gestión de Productos</strong></p>
     </td>
-    <td width="50%">
+    <td width="50%" align="center">
       <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Admin3.jpeg" alt="Panel admin - Pedidos" width="100%" style="border-radius: 8px;"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Admin4.jpeg" alt="Panel admin - Reportes" width="800" style="border-radius: 8px;"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Registro.png" alt="Vista de Registro" width="800" style="border-radius: 8px;"/>
+      <p><strong>Gestión de Pedidos</strong></p>
     </td>
   </tr>
 </table>
-🔗 Enlaces
 
-**Código Fuente:** https://github.com/LuisHV935/El-Buen-Taco/tree/main
-**Demo en Vivo (Azure):** https://elbuentaco-cqhbdxfnevgadydm.canadacentral-01.azurewebsites.net/Cliente
-**Demo en GitHub Pages:** https://luishv935.github.io/ElBuenTacoAdministrador/Index.html y https://luishv935.github.io/ElBuenTacoCliente/Index.html
+<div align="center">
+  <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Admin4.jpeg" alt="Panel admin - Reportes" width="800" style="border-radius: 8px; margin: 20px 0;"/>
+  <p><strong>Reportes y Estadísticas</strong></p>
+</div>
+
+---
+
+### 📝 Registro
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/LuisHV935/El-Buen-Taco/main/Vistas/Registro.png" alt="Vista de Registro" width="800" style="border-radius: 8px; margin: 20px 0;"/>
+</div>
+
+---
+
+## 🔗 Enlaces
+
+- *Código Fuente:* [GitHub Repository](https://github.com/LuisHV935/El-Buen-Taco/tree/main)
+- *Demo en Vivo (Azure):* [Ver Aplicación](https://elbuentaco-cqhbdxfnevgadydm.canadacentral-01.azurewebsites.net/Cliente)
+- *Demo Cliente (GitHub Pages):* [Vista Cliente](https://luishv935.github.io/ElBuenTacoCliente/Index.html)
+- *Demo Admin (GitHub Pages):* [Panel Administrativo](https://luishv935.github.io/ElBuenTacoAdministrador/Index.html)
 
 ### 👨‍💻 Autor
 Desarrollado por **Adrian Guerrero Zamora** como proyecto final de Base de Datos.
