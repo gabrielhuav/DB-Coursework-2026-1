@@ -1610,13 +1610,6 @@ El núcleo de este proyecto es una base de datos normalizada que resuelve la ges
 ## 🎯 ¿Para qué sirve esta aplicación?
 Este sistema está diseñado para **equipos profesionales de Fórmula 1** y permite:
 
-- ✅ **Gestión completa de pilotos**: Contratos, licencias FIA
-- ✅ **Control de flota de autos**: Mantenimiento, especificaciones técnicas, estado
-- ✅ **Administración de carreras**: Calendario, circuitos, condiciones climáticas
-- ✅ **Seguimiento de resultados**: Puntos, clasificaciones, estadísticas
-- ✅ **Mantenimiento predictivo**: Programación de servicios técnicos
-- ✅ **Reporting financiero**: Presupuestos, costos, análisis de rendimiento
-
 ## 🚀 Características Principales
 
 ### 🔐 **Sistema de Seguridad**
@@ -1674,28 +1667,33 @@ Este sistema está diseñado para **equipos profesionales de Fórmula 1** y perm
 | **MySQL** | Base de datos | 8.0+ |
 | **PDO** | Conexión a BD | PHP PDO |
 | **JSON** | Comunicación API | API REST |
+      
 
+### **Datos prueba pagina web:**
 
-sistema-f1/
-│
-├── login.html                 # Página de autenticación
-├── index.html                 # Dashboard principal
-├── api.php                    # configuracion
-├── login.php                  # coingfiguarcion del logion
-├── generar_hashes.php         # sistema de segurirdad login                
-
-### **Imagenes del proyecto**
-Datos prueba pagina web:
 Usuario: admin
 Contraseña: admin123
 
 ### **Imagenes del proyecto**
 
-<img width="321" height="366" alt="image" src="https://github.com/user-attachments/assets/61231b07-eb4e-47f2-8ec2-352a40c1ef4d" />
-<img width="1251" height="848" alt="image" src="https://github.com/user-attachments/assets/9fbd0b8f-5c48-4aa2-a7e9-909e54333f70" />
-<img width="1191" height="866" alt="image" src="https://github.com/user-attachments/assets/7b98cc26-e9e6-4b64-9f8f-0f6f1318d421" />
-<img width="1200" height="664" alt="image" src="https://github.com/user-attachments/assets/0cc42cb3-8439-491c-9c9b-aa96dc99343f" />
-<img width="1234" height="921" alt="image" src="https://github.com/user-attachments/assets/cd4e3974-ce28-43d7-adce-e0206e5eb511" />
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/61231b07-eb4e-47f2-8ec2-352a40c1ef4d" alt="Login y autenticación" width="100%" style="border-radius: 8px;"/>
+    </td>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/9fbd0b8f-5c48-4aa2-a7e9-909e54333f70" alt="Dashboard principal" width="100%" style="border-radius: 8px;"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/7b98cc26-e9e6-4b64-9f8f-0f6f1318d421" width="100%" style="border-radius: 8px;"/>
+    </td>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/0cc42cb3-8439-491c-9c9b-aa96dc99343f" width="100%" style="border-radius: 8px;"/>
+    </td>
+  </tr>
+</table>
 
 ### **ENLACES**
 ### 📦 Repositorio de Código Fuente
