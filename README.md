@@ -1601,21 +1601,17 @@ El núcleo de este proyecto es una base de datos normalizada que resuelve la ges
 ---
 *Proyecto desarrollado para la materia de Base de Datos.*
 
-#PRACTICA 27 
+# PRACTICA 27 
 # 🏎️ Sistema de Gestión para Equipo de F1 - Scuderia Alpha Racing
 
 ## 📌 Descripción del Proyecto
-**Proyecto #24** - Sistema integral de gestión para equipo de Fórmula 1 que permite administrar pilotos, autos, circuitos, carreras y resultados en tiempo real. Plataforma web completa con autenticación, CRUD avanzado y reporting.
+Sistema integral de gestión para equipo de Fórmula 1 que permite administrar pilotos, autos, circuitos, carreras y resultados en tiempo real. Plataforma web completa con autenticación, CRUD avanzado y reporting.
 
-## 🎯 ¿Para qué sirve esta aplicación?
-Este sistema está diseñado para **equipos profesionales de Fórmula 1** y permite:
-
-## 🚀 Características Principales
+## Características Principales
 
 ### 🔐 **Sistema de Seguridad**
 - Autenticación de usuarios con roles (Piloto, Mecánico, Administrador)
 - Protección de rutas y sesiones
-- Encriptación de credenciales
 
 ### 📊 **Módulos del Sistema**
 1. **Gestión de Pilotos**
@@ -1679,10 +1675,10 @@ Contraseña: admin123
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github.com/user-attachments/assets/61231b07-eb4e-47f2-8ec2-352a40c1ef4d" alt="Login y autenticación" width="100%" style="border-radius: 8px;"/>
+      <img src="https://github.com/user-attachments/assets/61231b07-eb4e-47f2-8ec2-352a40c1ef4d" width="100%" style="border-radius: 8px;"/>
     </td>
     <td width="50%">
-      <img src="https://github.com/user-attachments/assets/9fbd0b8f-5c48-4aa2-a7e9-909e54333f70" alt="Dashboard principal" width="100%" style="border-radius: 8px;"/>
+      <img src="https://github.com/user-attachments/assets/9fbd0b8f-5c48-4aa2-a7e9-909e54333f70" width="100%" style="border-radius: 8px;"/>
     </td>
   </tr>
   <tr>
