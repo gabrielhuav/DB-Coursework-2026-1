@@ -746,6 +746,27 @@ Este proyecto destaca por la transición de código heredado a estándares moder
 ## 📊 Diagrama Entidad-Relación (ER)
 
 La base de datos relacional está diseñada para mantener la integridad referencial entre las operaciones comerciales.
+<div align="center">
+
+<table>
+  <tr>
+    <td><img src="" alt="inicio" width="400"/></td>
+    <td><img src="" alt="principal" width="400"/></td>
+    <td><img src="" alt="socios" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="" alt="clases" width="400"/></td>
+    <td><img src="" alt="instructores" width="400"/></td>
+    <td><img src="" alt="pagos" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="" alt="asistencia" width="400"/></td>
+    <td><img src="" alt="nuevo socio" width="400"/></td>
+    <td><img src="" alt="nueva clase" width="400"/></td>
+  </tr>
+</table>
+
+</div>
 
 
 
