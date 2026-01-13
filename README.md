@@ -770,7 +770,7 @@ La base de datos relacional está diseñada para mantener la integridad referenc
 ![](tienda2.png)
 ![](tienda3.png)
 ![](tienda4.png)
-
+---<img width="913" height="604" alt="Diagrama Entidad Relación" src="https://github.com/caceresvalenciagiovanni-web/Interfaces-web/issues/1#issue-3806474344"/>
 **Entidades Principales:**
 * **Venta & DetalleVenta:** Cabecera y renglones de cada transacción.
 * **Producto:** Inventario, costos y precios.
