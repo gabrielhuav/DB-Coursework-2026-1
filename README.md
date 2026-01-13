@@ -1840,50 +1840,48 @@ Sistema integral para la gestión de pedidos y administración de un restaurante
 
 ### 👨‍💻 Autor
 Desarrollado por **Adrian Guerrero Zamora** como proyecto final de Base de Datos.
----
-## Proyecto: Patitas Felices 🐾
-Sistema de administración web integral para gestionar el flujo de trabajo de una clínica veterinaria: control de pacientes, agenda visual interactiva y consultas médicas en tiempo real.
-Desarrollado por Mora Rodriguez Diego
-### 🛠️ Tecnologías
-* **Frontend:** React, HTML5, CSS3, JavaScript
-* **Backend:** Flask (Python)
-* **Base de Datos:** Supabase (PostgreSQL)
-* **Contenedores:** Docker
 
-### 🚀 Características Principales
-* **Gestión de Registros:** Módulo completo de registro de pacientes y dueños con historial médico.
-* **Agenda Visual:** Calendario interactivo para programación de citas y recordatorios.
-* **Consulta Médica:** Interfaz dedicada para la atención veterinaria en tiempo real (Live Mode).
 
-### 🖼️ Previews
 
-<table>
-  <tr>
-    <td width="50%">
-      <img src="https://raw.githubusercontent.com/morathegoatt/Patitas-Felices-/main/registro.jpeg" alt="Login y Autenticación" width="100%" style="border-radius: 8px;"/>
-    </td>
-    <td width="50%">
-      <img src="https://raw.githubusercontent.com/morathegoatt/Patitas-Felices-/main/agenda.jpeg" alt="Gestión de Agenda" width="100%" style="border-radius: 8px;"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="https://raw.githubusercontent.com/morathegoatt/Patitas-Felices-/main/consulta.jpeg" alt="Listado de Pacientes" width="100%" style="border-radius: 8px;"/>
-    </td>
-    <td width="50%">
-      <img src="https://raw.githubusercontent.com/morathegoatt/Patitas-Felices-/main/atender-consulta.jpeg" alt="Vista Detalle Consulta" width="100%" style="border-radius: 8px;"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <h4>📊 Modelo Entidad-Relación</h4>
-      <img src="https://raw.githubusercontent.com/morathegoatt/Patitas-Felices-/main/modelo-er-extendido.png" alt="Modelo ER" width="800" style="border-radius: 8px;"/>
-    </td>
-  </tr>
-</table>
 
-### 🔗 Enlaces
-* **Código Fuente:** [Repositorio en GitHub](https://github.com/morathegoatt/Patitas-Felices-)
-* **Demo en Vivo:** [🚀 Ver App en Vercel](https://patitas-felices-frontend.vercel.app/)
 
----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### StyleMatch – Recomendaciones de Moda
+
+StyleMatch es una aplicación web de recomendaciones de moda personalizada que combina análisis de colorimetría, preferencias de estilo y un algoritmo de puntuación para generar atuendos adaptados al usuario. Está desarrollada con Next.js, TypeScript, PostgreSQL (Supabase) y Drizzle ORM, integrando e-commerce y asesoría de imagen profesional.
+
+Repositorio GitHub: https://github.com/abrilirba/Recomendaciones-de-conjuntos
+
+Página Web: https://conjuntos-db.vercel.app
+
+GitHub Pages: https://abrilirba.github.io/Sitio-estatico-recomendaciones-de-conjuntos/#features
+			https://graphics-proceedings-tamil-obviously.trycloudflare.com
+
+<img width="517" height="813" alt="StyleMatch_Home" src="https://github.com/user-attachments/assets/5bac8824-c5fa-42a3-b657-f56748b6ed42" />
+
+<img width="1295" height="813" alt="StyleMatch_Dashboard" src="https://github.com/user-attachments/assets/d94e7e42-4220-4a85-8ff7-045589a7662d" />
+
+<img width="1169" height="806" alt="StyleMatch_generator" src="https://github.com/user-attachments/assets/22060545-82cb-48ba-818c-c6b9dd76257e" />
+
+<img width="1019" height="813" alt="StyleMatch_Colorimetry" src="https://github.com/user-attachments/assets/cedf6bcf-93d4-4be8-a8e0-7cad42291770" />
+
+
+## Tecnologías Clave
+* Frontend: Next.js (App Router), React, TypeScript
+* UI: Tailwind CSS, shadcn/ui
+* Backend / DB: PostgreSQL (Supabase)
+* ORM: Drizzle ORM
+* Auth & Seguridad: Supabase Auth + Row Level Security (RLS)
