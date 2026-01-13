@@ -2050,6 +2050,11 @@ o	Hosting: Render.
 <table> <tr> <td width="50%"> <img src="https://github.com/user-attachments/assets/d8d05b70-1863-479a-8309-674e351bfa19" alt="Pantalla de inicio" width="100%" style="border-radius: 8px;"/> </td> <td width="50%"> <img src="https://github.com/user-attachments/assets/97f3019f-746f-4351-8df8-a159a5332dcc" alt="Gestión de usuarios" width="100%" style="border-radius: 8px;"/> </td> </tr> <tr> <td width="50%"> <img src="https://github.com/user-attachments/assets/52e20bfd-0f45-4d84-b666-6f73b56d1b92" alt="Dashboard principal" width="100%" style="border-radius: 8px;"/> </td> <td width="50%"> <img src="https://github.com/user-attachments/assets/59b8f532-c6b8-48e7-9478-f4667f30e8ef" alt="Clubes de lectura" width="100%" style="border-radius: 8px;"/> </td> </tr> <tr> <td width="50%"> <img src="https://github.com/user-attachments/assets/0a708a42-e27d-481e-8ab9-db29a50a422a" alt="Reseñas de libros" width="100%" style="border-radius: 8px;"/> </td> <td width="50%"> <img src="https://github.com/user-attachments/assets/59cb7af6-eb4e-4096-aa74-b003d9cbcaa7" alt="Gestión de préstamos" width="100%" style="border-radius: 8px;"/> </td> </tr> <tr> <td colspan="2" align="center"> <h4>📚 Catálogo de Libros</h4> <img src="https://github.com/user-attachments/assets/471aeaeb-d706-43b8-a6f3-8a11b9082c32" alt="Listado de libros" width="85%" style="border-radius: 8px;"/> </td> </tr> </table>
 
 ### Diagrama Entidad-Relación (Peter-Chen):
+<img width="921" height="416" alt="image" src="https://github.com/user-attachments/assets/a5d5c865-5740-4b3c-9ee5-32b8ea40ef6c" />
+
+### Diagrama Relacional (Crow’s Foot):
+<img width="921" height="550" alt="image" src="https://github.com/user-attachments/assets/6ac60034-2dd3-4e4d-bc74-fb0dcdb5ab6f" />
+
 ### Enlaces:
 •	Repositorio en GitHub: https://github.com/alecordeo/club-lectura-flask
 •	Aplicación Web: https://club-lectura.onrender.com/
