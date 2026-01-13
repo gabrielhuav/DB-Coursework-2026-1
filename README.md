@@ -1159,10 +1159,10 @@ Este proyecto consiste en el diseño e implementación de una base de datos rela
 * POSTRES
 
 ### 🔗 Enlaces
-[Repositorio en GitHub](https://github.com/elimon2006-ux/restaurante)
-[Restaurantel](https://restaurante-o4bj.onrender.com/)
-[Repositorio en GitHub Pages](https://github.com/elimon2006-ux/elimon2006-ux.github.io)
-[Restaurante Pages](https://elimon2006-ux.github.io/index.html)
+* [Repositorio en GitHub](https://github.com/elimon2006-ux/restaurante)
+* [Restaurantel](https://restaurante-o4bj.onrender.com/)
+* [Repositorio en GitHub Pages](https://github.com/elimon2006-ux/elimon2006-ux.github.io)
+* [Restaurante Pages](https://elimon2006-ux.github.io/index.html)
 
 
 
