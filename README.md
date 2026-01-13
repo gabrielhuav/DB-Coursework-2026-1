@@ -750,19 +750,13 @@ La base de datos relacional está diseñada para mantener la integridad referenc
 
 <table>
   <tr>
-    <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/imagen_diagrama.jpeg" alt="inicio" width="400"/></td>
-    <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/imagen_diagrama1.jpeg" alt="principal" width="400"/></td>
-    <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/imagen_EER.jpeg" alt="socios" width="400"/></td>
+    <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/imagen_diagrama.jpeg" alt="inicio" width="500"/></td>
+ </tr>
+	<tr>
+    <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/imagen_diagrama1.jpeg" alt="principal" width="500"/></td>
   </tr>
   <tr>
-    <td><img src="" alt="clases" width="400"/></td>
-    <td><img src="" alt="instructores" width="400"/></td>
-    <td><img src="" alt="pagos" width="400"/></td>
-  </tr>
-  <tr>
-    <td><img src="" alt="asistencia" width="400"/></td>
-    <td><img src="" alt="nuevo socio" width="400"/></td>
-    <td><img src="" alt="nueva clase" width="400"/></td>
+    <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/imagen_EER.jpeg" alt="socios" width="500"/></td>
   </tr>
 </table>
 
