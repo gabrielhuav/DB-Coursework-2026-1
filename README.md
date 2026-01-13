@@ -1728,3 +1728,51 @@ Contraseña: admin123
 
 *Proyecto desarrollado para la materia de Base de Datos.*
 
+# Proyecto 28: Sistema de Gestión Integral para DJ
+
+**EventFlow** es una plataforma web full-stack desarrollada con **Next.js y Supabase** que centraliza la logística, venta de boletos y control de acceso para eventos musicales. Permite gestionar roles (Admin, Artista, Cliente), generar entradas con códigos QR únicos y validar el acceso en tiempo real, solucionando la desorganización que enfrentan los DJs independientes.
+
+---
+
+## 💡 Sobre el Proyecto
+
+**EventFlow** nace de la necesidad de **centralizar y profesionalizar la gestión de eventos**.
+Tradicionalmente, la información de clientes, playlists y contratos se maneja de forma dispersa. Esta plataforma ofrece una solución **"Todo en Uno"** que conecta tres roles fundamentales:
+
+1.  **El DJ (Admin):** Control total de la cartelera y acceso en tiempo real (Live Manager).
+2.  **El Cliente (Fan):** Compra boletos en segundos y recibe un QR único.
+3.  **El Artista:** Sistema de solicitudes y aprobación para unirse al lineup.
+
+---
+
+## 🛠️ Tecnologías y Base de Datos
+
+El sistema se apoya en una arquitectura moderna y segura:
+
+- **Frontend:** Next.js 14 (App Router).
+- **Base de Datos:** PostgreSQL con **Supabase**.
+- **Modelo de Datos (EER):** Diseño avanzado con **herencia** (Clase `Persona` -> Admin, Cliente, Artista) para evitar redundancia.
+- **Seguridad (RLS):** Implementación de **Row Level Security** directamente en la base de datos para proteger la privacidad de los usuarios.
+- **Optimización:** Uso de `JOINs` complejos para traer toda la información del evento en una sola consulta eficiente.
+
+---
+
+## 📸 Interfaz y Funcionalidades
+
+| Cartelera de Eventos | Compra de Boletos & QR |
+|:---:|:---:|
+| **Vista Principal:** Exploración de eventos.<br>![Vista de Cartelera](https://raw.githubusercontent.com/adrianguerrerozamora-beep/proyecto-base-de-datos/main/cartelera.png) | **Flujo de Compra:** Generación de ticket digital.<br>![Modal de Compra](https://raw.githubusercontent.com/adrianguerrerozamora-beep/proyecto-base-de-datos/main/compra_de_boletos.png) |
+
+| Dashboard del DJ (Admin) | Inicio de Sesión (Login) |
+|:---:|:---:|
+| **Panel de Control:** Métricas y validación.<br>![Dashboard DJ](https://raw.githubusercontent.com/adrianguerrerozamora-beep/proyecto-base-de-datos/main/panel_de_control.png) | **Seguridad:** Acceso por roles.<br>![Pantalla Login](https://raw.githubusercontent.com/adrianguerrerozamora-beep/proyecto-base-de-datos/main/login.png) |
+
+---
+
+### 🔗 Enlaces del Proyecto
+- **📂 Repositorio:** [Ver Código en GitHub](https://github.com/adrianguerrerozamora-beep/proyecto-base-de-datos)
+- **🚀 Web Oficial (Funcional):** [Ver Demo en Vercel](https://rodd-todd.vercel.app/)
+- **📄 Versión Estática (GitHub Pages):** [Ver Portada Estática](https://adrianguerrerozamora-beep.github.io/proyecto-base-de-datos/public/index.html)
+
+### 👨‍💻 Autor
+Desarrollado por **Adrian Guerrero Zamora** como proyecto final de Base de Datos.
