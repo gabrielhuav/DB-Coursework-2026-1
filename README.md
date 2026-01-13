@@ -1148,12 +1148,9 @@ Este proyecto consiste en el diseño e implementación de una base de datos rela
       <img src="https://github.com/user-attachments/assets/8f5d03da-f842-4860-bc2d-01dd898440ff" alt="Reportes y análisis" width="100%" style="border-radius: 8px;"/>
     </td>
   </tr>
-	<tr>
-    <td width="50%">
-      <img src="hhttps://github.com/user-attachments/assets/c72ed1d7-dedc-4be9-905b-57a0620cc50b" alt="Dashboard principal" width="100%" style="border-radius: 8px;"/>
-    </td>
-		</tr>
 </table>
+
+<img src="https://github.com/user-attachments/assets/c72ed1d7-dedc-4be9-905b-57a0620cc50b " width="45%" />
 
 ### Se divide en 4 categorias
 * TACOS
