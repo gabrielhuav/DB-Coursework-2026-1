@@ -1131,19 +1131,29 @@ Este proyecto consiste en el diseño e implementación de una base de datos rela
 
 # 🖼 **Capturas de Pantalla**
 
-<p align="center">
-  <img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/acc0bc9e-596e-44e7-a424-a7ae6c686204" />
-  <img width="1919" height="877" alt="image" src="https://github.com/user-attachments/assets/01f6ee20-fc81-4ac6-af35-09292140a7b9" />
-</p>
-
-<p align="center">
-  <img width="1919" height="875" alt="image" src="https://github.com/user-attachments/assets/ebf1e82c-39ab-40df-8832-1b7be2f68617" />
-  <img width="1919" height="879" alt="image" src="https://github.com/user-attachments/assets/8f5d03da-f842-4860-bc2d-01dd898440ff" />
-</p>
-
-<p align="center">
-  <img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/c72ed1d7-dedc-4be9-905b-57a0620cc50b" />
-</p>
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/acc0bc9e-596e-44e7-a424-a7ae6c686204" alt="Dashboard principal" width="100%" style="border-radius: 8px;"/>
+    </td>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/01f6ee20-fc81-4ac6-af35-09292140a7b9" alt="Gestión de inventario" width="100%" style="border-radius: 8px;"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/ebf1e82c-39ab-40df-8832-1b7be2f68617" alt="Control de producción" width="100%" style="border-radius: 8px;"/>
+    </td>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/8f5d03da-f842-4860-bc2d-01dd898440ff" alt="Reportes y análisis" width="100%" style="border-radius: 8px;"/>
+    </td>
+  </tr>
+	<tr>
+    <td width="50%">
+      <img src="hhttps://github.com/user-attachments/assets/c72ed1d7-dedc-4be9-905b-57a0620cc50b" alt="Dashboard principal" width="100%" style="border-radius: 8px;"/>
+    </td>
+		</tr>
+</table>
 
 ### Se divide en 4 categorias
 * TACOS
