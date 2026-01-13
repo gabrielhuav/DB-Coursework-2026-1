@@ -2038,4 +2038,19 @@ Sistema de administración web integral para gestionar el flujo de trabajo de un
 
 ---
 
+### PROYECTO 28: CLUB DE LECTURA INCORDE.
+### Descripción:
+Sistema de gestión de un club de lectura para expandir el conocimiento en títulos y autores, agilizar los préstamos hechos por los miembros de este, así como las reseñas que dejan respecto a los libros leídos y/o prestados.
+### Tecnologías:
+o	Backend: Phyton + Flask con SQLAlchemy (ORM/Invulnerable a SQL Injection).
+o	Base de Datos: PostgreSQL.
+o	Frontend: HTML, CSS, Jinja y JavaScript.
+o	Hosting: Render.
+### Previews (Screenshots):
+<table> <tr> <td width="50%"> <img src="https://github.com/user-attachments/assets/d8d05b70-1863-479a-8309-674e351bfa19" alt="Pantalla de inicio" width="100%" style="border-radius: 8px;"/> </td> <td width="50%"> <img src="https://github.com/user-attachments/assets/97f3019f-746f-4351-8df8-a159a5332dcc" alt="Gestión de usuarios" width="100%" style="border-radius: 8px;"/> </td> </tr> <tr> <td width="50%"> <img src="https://github.com/user-attachments/assets/52e20bfd-0f45-4d84-b666-6f73b56d1b92" alt="Dashboard principal" width="100%" style="border-radius: 8px;"/> </td> <td width="50%"> <img src="https://github.com/user-attachments/assets/59b8f532-c6b8-48e7-9478-f4667f30e8ef" alt="Clubes de lectura" width="100%" style="border-radius: 8px;"/> </td> </tr> <tr> <td width="50%"> <img src="https://github.com/user-attachments/assets/0a708a42-e27d-481e-8ab9-db29a50a422a" alt="Reseñas de libros" width="100%" style="border-radius: 8px;"/> </td> <td width="50%"> <img src="https://github.com/user-attachments/assets/59cb7af6-eb4e-4096-aa74-b003d9cbcaa7" alt="Gestión de préstamos" width="100%" style="border-radius: 8px;"/> </td> </tr> <tr> <td colspan="2" align="center"> <h4>📚 Catálogo de Libros</h4> <img src="https://github.com/user-attachments/assets/471aeaeb-d706-43b8-a6f3-8a11b9082c32" alt="Listado de libros" width="85%" style="border-radius: 8px;"/> </td> </tr> </table>
 
+### Diagrama Entidad-Relación (Peter-Chen):
+### Enlaces:
+•	Repositorio en GitHub: https://github.com/alecordeo/club-lectura-flask
+•	Aplicación Web: https://club-lectura.onrender.com/
+•	Versión de la App estática: https://ramavina31-creator.github.io/in-corde/
