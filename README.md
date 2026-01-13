@@ -2107,6 +2107,12 @@ o	Hosting: Render.
 
 ---
 
+## Usuarios de prueba
+* Usuario regular: Juan | juan123.
+* Usuario admin0: admin | admin123.
+
+---
+
 ## Características Principales
 
 * **Gestión Multiusuario:** Registro y acceso personalizado para el manejo de finanzas individuales.
@@ -2118,11 +2124,24 @@ o	Hosting: Render.
 ---
 
 ## Evidencias
-<img width="1918" height="970" alt="Evidencia_5" src="https://github.com/user-attachments/assets/f01dd96e-2cf7-401c-aa58-389ad7aff7d0" />
-<img width="1918" height="968" alt="Evidencia_4" src="https://github.com/user-attachments/assets/893dd8aa-40b5-4495-b079-f08230f77e4e" />
-<img width="1918" height="968" alt="Evidencia_3" src="https://github.com/user-attachments/assets/79ee371a-8b98-44a6-9d07-3cc54a35f5a8" />
-<img width="1918" height="968" alt="Evidencia_2" src="https://github.com/user-attachments/assets/96588346-da67-4dbb-bcc2-5bf1c9d168d1" />
-<img width="1917" height="967" alt="Evidencia_1" src="https://github.com/user-attachments/assets/aff0c2de-2f02-4f65-a980-e6932983a7b6" />
+<table border="1">
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/aff0c2de-2f02-4f65-a980-e6932983a7b6" alt="Evidencia_1" width="450">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/96588346-da67-4dbb-bcc2-5bf1c9d168d1" alt="Evidencia_2" width="450">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/79ee371a-8b98-44a6-9d07-3cc54a35f5a8" alt="Evidencia_3" width="450">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/893dd8aa-40b5-4495-b079-f08230f77e4e" alt="Evidencia_4" width="450">
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -2135,9 +2154,3 @@ o	Hosting: Render.
 | **Interfaz (Frontend)** | HTML5, CSS3, Bootstrap 5 |
 | **Gráficos** | Chart.js |
 | **Despliegue** | Render |
-
----
-
-## Usuarios de prueba
-* Usuario regular: Juan | juan123.
-* Usuario admin0: admin | admin123.
