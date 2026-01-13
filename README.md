@@ -2108,8 +2108,9 @@ o	Hosting: Render.
 ---
 
 ## Usuarios de prueba
-* Usuario regular: Juan | juan123.
+
 * Usuario admin0: admin | admin123.
+* Usuario regular: Juan | juan123.
 
 ---
 
