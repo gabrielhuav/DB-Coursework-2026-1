@@ -1438,7 +1438,32 @@ Sistema de administración web integral para gestionar el flujo de trabajo de un
 * **Demo en Vivo:** [🚀 Ver App en Vercel](https://patitas-felices-frontend.vercel.app/)
 
 ---
+---
 
+## Proyecto 6: Gimnasio
+Es un sistemma de gestión de deatos de los miembros, clases, tutores, pagos, instructores mediante el uso de diferentes roles. En este caso, sería el jefe, recepcionista y a los clientes que deseen ver sus datos.
+
+### 🛠️ Tecnologías
+* **Backend:** Python 3.10.
+* **Framework:** Flask.
+* **Base de Datos:** PostgreSQL.
+* **Hosting DB:** Neon Tech Hosting.
+* **App:** Render Conector Pyscopg2.
+* **Frontend:** HTML, CSS.
+
+### 🖼️ Previews
+<img width="670" height="782" alt="1" src="https://github.com/user-attachments/assets/8aa0d333-2108-40de-b064-739af18bffe1" />
+<img width="782" height="352" alt="2" src="https://github.com/user-attachments/assets/1b200d3b-f246-470a-ad98-cd8ebc7dc083" />
+<img width="807" height="298" alt="3" src="https://github.com/user-attachments/assets/47050121-9b60-486f-9d8c-ee6ccffe37d3" />
+<img width="782" height="390" alt="4" src="https://github.com/user-attachments/assets/0ebc425f-d7bd-4142-99a7-fdff074566af" />
+<img width="792" height="266" alt="5" src="https://github.com/user-attachments/assets/8ea05ba5-c4f6-4dbb-9c09-ad11dc6a8050" />
+
+### 🔗 Enlaces
+* **Código Fuente:** https://luisdaniel-cmd.github.io/BDGimansio/
+* **Demo en Vivo (Github Pages):** https://LuisDaniel-cmd.github.io/BDGimansio/
+*  **Demo en Vivo (Render):** [https://gimansioweb.onrender.com/login](https://gimnasio-pro-web.onrender.com)
+
+---
 ## 📝 Licencia
 
 Proyectos académicos desarrollados para el curso de Bases de Datos 2026-1.
