@@ -1442,3 +1442,50 @@ Sistema de administración web integral para gestionar el flujo de trabajo de un
 ## 📝 Licencia
 
 Proyectos académicos desarrollados para el curso de Bases de Datos 2026-1.
+##  Proyecto 35: Compañia de danza- administracion 
+Aplicación de laboratorio para administrar integrantes, bailes, presentaciones, cuadros, observaciones e inventario. El sistema fue desarrollado con HTML, CSS y JavaScript puro, y se conecta a una base de datos Postgres en Supabase mediante una función RPC para ejecutar consultas SQL.
+### Tecnologías utilizadas
+- **Frontend:** HTML, CSS y JavaScript vanilla
+- **Base de datos:** PostgreSQL
+- **Backend / servicio:** Supabase (RPC `exec_sql`)
+- **Despliegue:** Vercel
+### Funcionalidades principales
+- Inicio de sesión y manejo de sesión
+- Administración de integrantes
+- Administración de bailes
+- Administración de participaciones
+- Administración de presentaciones
+- Administración de cuadros
+- Registro de observaciones
+- Control de inventario
+- Registro de acciones en `audit_log`
+### Credenciales de prueba
+- **Usuario:** `admin@compania.pe`
+- **Contraseña:** `Password123!`
+<details>
+<summary>🟩 Ver capturas de pantalla</summary>
+
+<img loading="lazy" src="Captura01.png" width="250"/>
+<img loading="lazy" src="Captura02.png" width="250"/>
+<img loading="lazy" src="Captura03.png" width="250"/>
+<img loading="lazy" src="Captura04.png" width="250"/>
+<img loading="lazy" src="Captura05.png" width="250"/>
+<img loading="lazy" src="Captura06.png" width="250"/>
+<img loading="lazy" src="Captura07.png" width="250"/>
+<img loading="lazy" src="Captura08.png" width="250"/>
+<img loading="lazy" src="Captura09.png" width="250"/>
+<img loading="lazy" src="Captura10.png" width="250"/>
+<img loading="lazy" src="Captura11.png" width="250"/>
+<img loading="lazy" src="Captura12.png" width="250"/>
+<img loading="lazy" src="Captura13.png" width="250"/>
+<img loading="lazy" src="Captura14.png" width="250"/>
+<img loading="lazy" src="Captura15.png" width="250"/>
+<img loading="lazy" src="Captura16.png" width="250"/>
+<img loading="lazy" src="Captura17.png" width="250"/>
+
+</details>
+
+### Enlaces
+
+- **Código Fuente:** [Repositorio en GitHub](https://github.com/avril1699/Grupo-Jaltepec-BD/tree/4e0f75d7a63f13784b874eaa521d3e8103a8dce5/Downloads/danza-app)
+- **Demo en Vivo (Vercel):** [Ver proyecto](https://grupo-jaltepec-bd.vercel.app/)
